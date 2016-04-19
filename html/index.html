@@ -11,16 +11,141 @@
     <title>Sentinel</title>
 
     <!-- Styles -->
-    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
-    <link href="css/theme.css" type="text/css" rel="stylesheet">
+    <link href="css/semantic.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
 
     <!-- JS -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    h1 ul>li*5>a
+    <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/semantic.min.js"></script>
+
+    <script>
+        $(document)
+            .ready(function() {
+                // fix main menu to page on passing
+                var fixed = false;
+                $('main').visibility({
+                    onUpdate: function(calculations) {
+                        console.log(calculations);
+                        if(calculations.pixelsPassed > 180 && !fixed){
+                            $('.main.menu').addClass('fixed');
+                            fixed = true;
+
+                        }else if(calculations.pixelsPassed < 180) {
+                            $('.main.menu').removeClass('fixed');
+                            fixed = false;
+                        }
+                    },
+
+                });
+            });
+
+    </script>
 
 
 </head>
-<body>
+<body class="home">
+    <main>
+        <div class="ui borderless stackable main menu">
+            <div class="ui container">
+                <div href="#" class="header item">
+                    <img class="logo" src="assets/images/logo.png">
+                    Project Name
+                </div>
+                <div class="ui right stackable menu">
+
+                    <a class="item" href="">work</a>
+                    <a class="item" href="">about</a>
+                    <a class="item" href="">what we do</a>
+                    <a class="item" href="">blog</a>
+                    <a class="item" href="">contact</a>
+
+                </div>
+
+                <div class="ui dropdown item">
+                    Language <i class="dropdown icon"></i>
+                    <div class="menu">
+                        <a class="item">English</a>
+                        <a class="item">Russian</a>
+                        <a class="item">Spanish</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="ui three column doubling stackable grid container">
+            <div class="column">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
+            </div>
+            <div class="column">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
+            </div>
+            <div class="column">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
+            </div>
+
+        </div>
+
+        <div class="ui three column doubling stackable grid container">
+            <div class="column">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
+            </div>
+            <div class="column">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
+            </div>
+            <div class="column">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
+            </div>
+
+        </div>
+
+
+
+        <div class="ui three column doubling stackable grid container">
+            <div class="column">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
+            </div>
+            <div class="column">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
+            </div>
+            <div class="column">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
+            </div>
+
+        </div>
+
+        <div class="ui three column doubling stackable grid container">
+            <div class="column">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
+            </div>
+            <div class="column">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
+            </div>
+            <div class="column">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
+            </div>
+
+        </div>
+    </main>
+
+
+
+
 
 </body>
 </html>

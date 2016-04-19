@@ -1,0 +1,14 @@
+
+.ui.menu {
+    box-shadow: none;
+    background: transparent;
+    border: none;
+    transition: ease-in-out, all .35s ease-in-out;
+}
+.main.menu.fixed {
+    top: -100px;
+    transform: translateY(100px);
+    transition: ease-in-out, all .35s ease-in-out;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
