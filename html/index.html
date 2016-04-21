@@ -1,151 +1,197 @@
+
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
+<head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="Author" content="Sentinel" />
     <meta name="Keywords" content="some, key, words" />
     <meta name="description" content="Description" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no;"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Sentinel</title>
+    <!-- Site Properties -->
+    <title>Homepage - Sentinel</title>
 
-    <!-- Styles -->
-    <link href="css/semantic.css" type="text/css" rel="stylesheet">
-    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <!-- CSS -->
+
+    <link rel="stylesheet" type="text/css" href="css/semantic-base.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+
 
     <!-- JS -->
     <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
-    <script type="text/javascript" src="js/semantic.min.js"></script>
-
+    <script src="dist/components/visibility.js"></script>
+    <script src="dist/components/sidebar.js"></script>
+    <script src="dist/components/transition.js"></script>
     <script>
         $(document)
             .ready(function() {
-                // fix main menu to page on passing
-                var fixed = false;
-                $('main').visibility({
-                    onUpdate: function(calculations) {
-                        console.log(calculations);
-                        if(calculations.pixelsPassed > 180 && !fixed){
-                            $('.main.menu').addClass('fixed');
-                            fixed = true;
 
-                        }else if(calculations.pixelsPassed < 180) {
-                            $('.main.menu').removeClass('fixed');
-                            fixed = false;
-                        }
-                    },
+                // fix menu when passed
+                $('.masthead')
+                        .visibility({
+                            once: false,
+                            onBottomPassed: function() {
+                                $('.fixed.menu').transition('fade in');
+                            },
+                            onBottomPassedReverse: function() {
+                                $('.fixed.menu').transition('fade out');
+                            }
+                        })
+                ;
 
-                });
-            });
+                // create sidebar and attach to menu open
+                $('.ui.sidebar')
+                        .sidebar('attach events', '.toc.item')
+                ;
 
+            })
+        ;
     </script>
-
-
 </head>
-<body class="home">
-    <main>
-        <div class="ui borderless stackable main menu">
-            <div class="ui container">
-                <div href="#" class="header item">
-                    <img class="logo" src="assets/images/logo.png">
-                    Project Name
+<body>
+
+<!-- Following Menu -->
+<div class="ui large top fixed hidden menu">
+    <div class="ui container">
+        <a href="#" class="logo">
+            <img class="" src="images/logo-white.png">
+        </a>
+        <div class="right menu">
+            <a class="active item">Work</a>
+            <a class="item">About</a>
+            <a class="item">What we do</a>
+            <a class="item">Blog</a>
+            <a class="item">Contact</a>
+        </div>
+    </div>
+</div>
+
+<!-- Sidebar Menu -->
+<div class="ui vertical inverted sidebar menu">
+    <a class="active item">Home</a>
+    <a class="item">Work</a>
+    <a class="item">Company</a>
+    <a class="item">Careers</a>
+    <a class="item">Login</a>
+    <a class="item">Signup</a>
+</div>
+
+
+<!-- Page Contents -->
+<div class="pusher">
+    <div class="ui inverted vertical masthead center aligned segment">
+        <div class="ui container">
+            <div class="ui secondary inverted menu">
+                <a href="#" class="logo">
+                    <img class="" src="images/logo-white.png">
+                </a>
+                <div class="right menu">
+                    <a class="active item">Work</a>
+                    <a class="item">About</a>
+                    <a class="item">What we do</a>
+                    <a class="item">Blog</a>
+                    <a class="item">Contact</a>
                 </div>
-                <div class="ui right stackable menu">
+            </div>
+        </div>
 
-                    <a class="item" href="">work</a>
-                    <a class="item" href="">about</a>
-                    <a class="item" href="">what we do</a>
-                    <a class="item" href="">blog</a>
-                    <a class="item" href="">contact</a>
+        <div class="ui text container">
+            <h1 class="ui inverted header">
+                Imagine-a-Company
+            </h1>
+            <h2>Do whatever you want when you want to.</h2>
+            <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
+        </div>
 
+    </div>
+
+    <div class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+            <div class="row">
+                <div class="eight wide column">
+                    <h3 class="ui header">We Help Companies and Companions</h3>
+                    <p>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>
+                    <h3 class="ui header">We Make Bananas That Can Dance</h3>
+                    <p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.</p>
                 </div>
+                <div class="six wide right floated column">
+                    <img src="assets/images/wireframe/white-image.png" class="ui large bordered rounded image">
+                </div>
+            </div>
+            <div class="row">
+                <div class="center aligned column">
+                    <a class="ui huge button">Check Them Out</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                <div class="ui dropdown item">
-                    Language <i class="dropdown icon"></i>
-                    <div class="menu">
-                        <a class="item">English</a>
-                        <a class="item">Russian</a>
-                        <a class="item">Spanish</a>
+
+    <div class="ui vertical stripe quote segment">
+        <div class="ui equal width stackable internally celled grid">
+            <div class="center aligned row">
+                <div class="column">
+                    <h3>"What a Company"</h3>
+                    <p>That is what they all say about us</p>
+                </div>
+                <div class="column">
+                    <h3>"I shouldn't have gone with their competitor."</h3>
+                    <p>
+                        <img src="assets/images/avatar/nan.jpg" class="ui avatar image"> <b>Nan</b> Chief Fun Officer Acme Toys
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui vertical stripe segment">
+        <div class="ui text container">
+            <h3 class="ui header">Breaking The Grid, Grabs Your Attention</h3>
+            <p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>
+            <a class="ui large button">Read More</a>
+            <h4 class="ui horizontal header divider">
+                <a href="#">Case Studies</a>
+            </h4>
+            <h3 class="ui header">Did We Tell You About Our Bananas?</h3>
+            <p>Yes I know you probably disregarded the earlier boasts as non-sequitor filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.</p>
+            <a class="ui large button">I'm Still Quite Interested</a>
+        </div>
+    </div>
+
+
+    <div class="ui inverted vertical footer segment">
+        <div class="ui container">
+            <div class="ui stackable inverted divided equal height stackable grid">
+                <div class="three wide column">
+                    <h4 class="ui inverted header">About</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">Sitemap</a>
+                        <a href="#" class="item">Contact Us</a>
+                        <a href="#" class="item">Religious Ceremonies</a>
+                        <a href="#" class="item">Gazebo Plans</a>
                     </div>
                 </div>
-
+                <div class="three wide column">
+                    <h4 class="ui inverted header">Services</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">Banana Pre-Order</a>
+                        <a href="#" class="item">DNA FAQ</a>
+                        <a href="#" class="item">How To Access</a>
+                        <a href="#" class="item">Favorite X-Men</a>
+                    </div>
+                </div>
+                <div class="seven wide column">
+                    <h4 class="ui inverted header">Footer Header</h4>
+                    <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+                </div>
             </div>
         </div>
-
-
-
-
-        <div class="ui three column doubling stackable grid container">
-            <div class="column">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
-            </div>
-            <div class="column">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
-            </div>
-            <div class="column">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
-            </div>
-
-        </div>
-
-        <div class="ui three column doubling stackable grid container">
-            <div class="column">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
-            </div>
-            <div class="column">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
-            </div>
-            <div class="column">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
-            </div>
-
-        </div>
-
-
-
-        <div class="ui three column doubling stackable grid container">
-            <div class="column">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
-            </div>
-            <div class="column">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
-            </div>
-            <div class="column">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
-            </div>
-
-        </div>
-
-        <div class="ui three column doubling stackable grid container">
-            <div class="column">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
-            </div>
-            <div class="column">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
-            </div>
-            <div class="column">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consectetur ea exercitationem facere facilis in maiores maxime nisi numquam officia repellat repellendus reprehenderit saepe tenetur vel voluptatem voluptates? Voluptatum?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque dicta dolor facilis hic pariatur repellendus rerum sapiente? Ad alias animi asperiores deserunt eos, eveniet inventore perspiciatis quas suscipit vero?</p>
-            </div>
-
-        </div>
-    </main>
-
-
-
-
+    </div>
+</div>
 
 </body>
+
 </html>
