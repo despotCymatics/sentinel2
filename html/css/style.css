@@ -1,4 +1,7 @@
+body {
 
+
+}
 /* Semantic Overrides */
 @media only screen and (min-width: 1200px) {
     .ui.container {
@@ -12,74 +15,117 @@
     }
 }
 
-.ui.menu {
-    box-shadow: none;
-    background: transparent;
-    border: none;
-    transition: ease-in-out, all .35s ease-in-out;
+.ui.button {
+    text-transform: uppercase;
+    font-size: 11px !important;
+    padding: 16px 40px;
+    letter-spacing: 1px;
 }
-.main.menu.fixed {
-    top: -100px;
-    transform: translateY(100px);
-    transition: ease-in-out, all .35s ease-in-out;
+.ui.white.button {
     background: #fff;
-    border-bottom: 1px solid #ccc;
+    color: #0f8ec7;
 }
 
+.ui.white.button:hover {
+    background: #eee;
+}
 
 /* Header */
 
-.home header {
-    height: 950px;
-    background: url(../images/home-head-bg.jpg) no-repeat 0 0;
-}
-
 .ui.menu .logo {
     width: 124px;
+    padding: 10px 0;
 }
 
 .ui.menu .logo img {
     width: 100%;
 }
-
-.ui.menu a.item, .ui.secondary.menu .item {
+.ui.menu .right a.item, .ui.secondary.menu a.item {
     text-transform: uppercase;
     font-size: 11px;
     font-weight: 600;
     letter-spacing:1px;
     padding: 12px 16px;
+    border-radius: 3px !important;
+    color: #fff;
 }
 
-.ui.secondary.inverted.menu a.item:hover {
+.ui.secondary.menu .item.active {
+    background-color: transparent;
+    color: #61cdff;
+}
+
+.ui.secondary.menu a.item:hover, .ui.secondary.menu a.active.item:hover {
     background: #fff;
-    color: #0f8ec7 !important;
+    color: #0f8ec7;
+}
+.ui.menu.fixed {
+    padding: 10px;
+    /*box-shadow: none;*/
+}
+
+.ui.menu.fixed .right a.item {
+    align-self: center;
+    border: none;
+    color: #999999;
+    border-radius: 3px !important;
+}
+
+.ui.menu.fixed .right a.item.active {
+    background-color: transparent;
+    color: #61cdff;
+}
+
+.ui.menu.fixed .right a.item:hover {
+    background: #0f8ec7;
+    color: #fff;
+}
+
+.ui.menu .item:before {
+    display: none;
 }
 
 .hidden.menu {
     display: none;
 }
 
-.masthead.segment {
+.ui.secondary.menu .toc.item {
+    display: none;
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.ui.secondary.menu .toc.item i {
+    margin: 0;
+}
+.home .masthead.segment {
     min-height: 750px;
     padding: 1em 0em;
-    background: url(../images/home-head-bg.jpg) no-repeat 0 0;
+    background: url(../images/home-head-bg.jpg) no-repeat center center;
 }
-.masthead .logo.item img {
+
+.home .masthead .logo.item img {
     margin-right: 1em;
 }
-.masthead .ui.menu .ui.button {
-    margin-left: 0.5em;
+
+.home .masthead .call-to-action {
+    width: 350px;
+    text-align: left;
 }
-.masthead h1.ui.header {
-    margin-top: 3em;
-    margin-bottom: 0em;
-    font-size: 4em;
-    font-weight: normal;
+
+.home .masthead h1.ui.header {
+    margin-top: 5em;
+    margin-bottom: 1em;
+    font-size: 36px;
+    font-weight: lighter;
 }
-.masthead h2 {
-    font-size: 1.7em;
-    font-weight: normal;
+
+.home .masthead h1.ui.header + p {
+    margin-bottom: 3em;
 }
+
+
 
 .ui.vertical.stripe {
     padding: 8em 0em;
@@ -113,9 +159,7 @@
     padding: 5em 0em;
 }
 
-.secondary.pointing.menu .toc.item {
-    display: none;
-}
+
 
 
 

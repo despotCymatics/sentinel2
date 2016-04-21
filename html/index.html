@@ -14,11 +14,9 @@
     <title>Homepage - Sentinel</title>
 
     <!-- CSS -->
-
     <link rel="stylesheet" type="text/css" href="css/semantic-base.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
-
 
     <!-- JS -->
     <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
@@ -43,21 +41,21 @@
                 ;
 
                 // create sidebar and attach to menu open
-                $('.ui.sidebar')
-                        .sidebar('attach events', '.toc.item')
-                ;
+                $('.ui.sidebar').sidebar('attach events', '.toc.item');
+                $('.masthead .white.button').transition('jiggle');
 
             })
         ;
     </script>
 </head>
-<body>
+
+<body class="home">
 
 <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
     <div class="ui container">
         <a href="#" class="logo">
-            <img class="" src="images/logo-white.png">
+            <img class="" src="images/logo-color.png">
         </a>
         <div class="right menu">
             <a class="active item">Work</a>
@@ -71,81 +69,120 @@
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu">
-    <a class="active item">Home</a>
-    <a class="item">Work</a>
-    <a class="item">Company</a>
-    <a class="item">Careers</a>
-    <a class="item">Login</a>
-    <a class="item">Signup</a>
+    <a class="active item">Work</a>
+    <a class="item">About</a>
+    <a class="item">What we do</a>
+    <a class="item">Blog</a>
+    <a class="item">Contact</a>
 </div>
 
 
 <!-- Page Contents -->
 <div class="pusher">
-    <div class="ui inverted vertical masthead center aligned segment">
-        <div class="ui container">
-            <div class="ui secondary inverted menu">
-                <a href="#" class="logo">
-                    <img class="" src="images/logo-white.png">
-                </a>
-                <div class="right menu">
-                    <a class="active item">Work</a>
-                    <a class="item">About</a>
-                    <a class="item">What we do</a>
-                    <a class="item">Blog</a>
-                    <a class="item">Contact</a>
+    <section class="header">
+        <div class="ui inverted vertical masthead center aligned segment">
+            <div class="ui container">
+                <div class="ui secondary menu">
+                    <a class="toc item">
+                        <i class="sidebar icon"></i>
+                    </a>
+                    <a href="#" class="logo">
+                        <img class="" src="images/logo-white.png">
+                    </a>
+                    <div class="right menu">
+                        <a class="active item">Work</a>
+                        <a class="item">About</a>
+                        <a class="item">What we do</a>
+                        <a class="item">Blog</a>
+                        <a class="item">Contact</a>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="ui text container">
-            <h1 class="ui inverted header">
-                Imagine-a-Company
-            </h1>
-            <h2>Do whatever you want when you want to.</h2>
-            <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
-        </div>
-
-    </div>
-
-    <div class="ui vertical stripe segment">
-        <div class="ui middle aligned stackable grid container">
-            <div class="row">
-                <div class="eight wide column">
-                    <h3 class="ui header">We Help Companies and Companions</h3>
-                    <p>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>
-                    <h3 class="ui header">We Make Bananas That Can Dance</h3>
-                    <p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.</p>
-                </div>
-                <div class="six wide right floated column">
-                    <img src="assets/images/wireframe/white-image.png" class="ui large bordered rounded image">
-                </div>
-            </div>
-            <div class="row">
-                <div class="center aligned column">
-                    <a class="ui huge button">Check Them Out</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="ui vertical stripe quote segment">
-        <div class="ui equal width stackable internally celled grid">
-            <div class="center aligned row">
-                <div class="column">
-                    <h3>"What a Company"</h3>
-                    <p>That is what they all say about us</p>
-                </div>
-                <div class="column">
-                    <h3>"I shouldn't have gone with their competitor."</h3>
-                    <p>
-                        <img src="assets/images/avatar/nan.jpg" class="ui avatar image"> <b>Nan</b> Chief Fun Officer Acme Toys
+            <div class="ui container">
+                <div class="call-to-action">
+                    <h1 class="ui inverted header">Digital is nothing without roadmap</h1>
+                    <p>Feugiat lobortis hendrerit cu mea, ei duo mutat partem nusquam. Ex ridens audiam latine pri, pri porro incorrupte no. Melius appetere vulputate te mea.
                     </p>
+                    <div class="ui large white button">see our work</div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="clients">
+
+    </section>
+
+    <section class="services">
+        <div class="ui vertical stripe container segment">
+            <div class="ui equal width stackable internally grid">
+
+                <div class="center aligned row">
+                    <div class="column">
+                        <h2 class="ui icon header">
+                            <i class="settings icon"></i>
+                            <div class="content">
+                                Account Settings
+                                <div class="sub header">Manage your account settings and set e-mail preferences.</div>
+                            </div>
+                        </h2>
+                    </div>
+                    <div class="column">
+                        <h2 class="ui icon header">
+                            <i class="settings icon"></i>
+                            <div class="content">
+                                Account Settings
+                                <div class="sub header">Manage your account settings and set e-mail preferences.</div>
+                            </div>
+                        </h2>
+                    </div>
+                    <div class="column">
+                        <h2 class="ui icon header">
+                            <i class="settings icon"></i>
+                            <div class="content">
+                                Account Settings
+                                <div class="sub header">Manage your account settings and set e-mail preferences.</div>
+                            </div>
+                        </h2>
+                    </div>
+                </div>
+                <div class="center aligned row">
+                    <div class="column">
+                        <h2 class="ui icon header">
+                            <i class="settings icon"></i>
+                            <div class="content">
+                                Account Settings
+                                <div class="sub header">Manage your account settings and set e-mail preferences.</div>
+                            </div>
+                        </h2>
+                    </div>
+                    <div class="column">
+                        <h2 class="ui icon header">
+                            <i class="settings icon"></i>
+                            <div class="content">
+                                Account Settings
+                                <div class="sub header">Manage your account settings and set e-mail preferences.</div>
+                            </div>
+                        </h2>
+                    </div>
+                    <div class="column">
+                        <h2 class="ui icon header">
+                            <i class="settings icon"></i>
+                            <div class="content">
+                                Account Settings
+                                <div class="sub header">Manage your account settings and set e-mail preferences.</div>
+                            </div>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="center aligned column">
+                        <a class="ui huge button">Check Them Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <div class="ui vertical stripe segment">
         <div class="ui text container">

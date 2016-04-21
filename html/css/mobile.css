@@ -4,11 +4,11 @@
     .ui.fixed.menu {
         display: none !important;
     }
-    .secondary.pointing.menu .item,
-    .secondary.pointing.menu .menu {
+    .ui.secondary.menu .item,
+    .ui.secondary.menu .right.menu {
         display: none;
     }
-    .secondary.pointing.menu .toc.item {
+    .ui.secondary.menu .toc.item {
         display: block;
     }
     .masthead.segment {
