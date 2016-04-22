@@ -15,6 +15,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/semantic-base.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
 
@@ -23,6 +24,8 @@
     <script src="dist/components/visibility.js"></script>
     <script src="dist/components/sidebar.js"></script>
     <script src="dist/components/transition.js"></script>
+    <script src="dist/components/tab.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script>
         $(document)
             .ready(function() {
@@ -44,6 +47,17 @@
                 $('.ui.sidebar').sidebar('attach events', '.toc.item');
                 $('.masthead .white.button').transition('jiggle');
 
+                //Initialize slick slider
+                $('.projects .items').slick({
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 6000,
+                    prevArrow: $('.prev-slide'),
+                    nextArrow: $('.next-slide')
+                });
+
+                //Initialize testimonials tabs
+                $('.testimonials .tabular.compact.menu .item').tab();
             })
         ;
     </script>
@@ -79,7 +93,7 @@
 
 <!-- Page Contents -->
 <div class="pusher">
-    <section class="header">
+    <header class="header">
         <div class="ui inverted vertical masthead center aligned segment">
             <div class="ui container">
                 <div class="ui secondary menu">
@@ -107,99 +121,207 @@
                 </div>
             </div>
         </div>
-    </section>
+        <div class="clients">
+            <div class="ui container">
+                <div class="ui six column grid">
+                    <div class="column">
+                        <img class="ui centered image" src="http://placehold.it/100x100">
+                    </div>
+                    <div class="column">
+                        <img class="ui centered image" src="http://placehold.it/100x100">
+                    </div>
+                    <div class="column">
+                        <img class="ui centered image" src="http://placehold.it/100x100">
+                    </div>
+                    <div class="column">
+                        <img class="ui centered image" src="http://placehold.it/100x100">
+                    </div>
+                    <div class="column">
+                        <img class="ui centered image" src="http://placehold.it/100x100">
+                    </div>
+                    <div class="column">
+                        <img class="ui centered image" src="http://placehold.it/100x100">
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <section class="clients">
-
-    </section>
+    </header>
 
     <section class="services">
         <div class="ui vertical stripe container segment">
-            <div class="ui equal width stackable internally grid">
 
+            <!--section header-->
+            <h2 class="ui center aligned header">
+                <div class="sub header">WHAT WE DO</div>
+                H2 services heading
+            </h2><!--section header-->
+
+            <div class="ui equal width stackable internally grid">
                 <div class="center aligned row">
                     <div class="column">
-                        <h2 class="ui icon header">
+                        <h3 class="ui icon header">
                             <i class="settings icon"></i>
                             <div class="content">
                                 Account Settings
                                 <div class="sub header">Manage your account settings and set e-mail preferences.</div>
                             </div>
-                        </h2>
+                        </h3>
                     </div>
                     <div class="column">
-                        <h2 class="ui icon header">
+                        <h3 class="ui icon header">
                             <i class="settings icon"></i>
                             <div class="content">
                                 Account Settings
                                 <div class="sub header">Manage your account settings and set e-mail preferences.</div>
                             </div>
-                        </h2>
+                        </h3>
                     </div>
                     <div class="column">
-                        <h2 class="ui icon header">
+                        <h3 class="ui icon header">
                             <i class="settings icon"></i>
                             <div class="content">
                                 Account Settings
                                 <div class="sub header">Manage your account settings and set e-mail preferences.</div>
                             </div>
-                        </h2>
+                        </h3>
                     </div>
                 </div>
                 <div class="center aligned row">
                     <div class="column">
-                        <h2 class="ui icon header">
+                        <h3 class="ui icon header">
                             <i class="settings icon"></i>
                             <div class="content">
                                 Account Settings
                                 <div class="sub header">Manage your account settings and set e-mail preferences.</div>
                             </div>
-                        </h2>
+                        </h3>
                     </div>
                     <div class="column">
-                        <h2 class="ui icon header">
+                        <h3 class="ui icon header">
                             <i class="settings icon"></i>
                             <div class="content">
                                 Account Settings
                                 <div class="sub header">Manage your account settings and set e-mail preferences.</div>
                             </div>
-                        </h2>
+                        </h3>
                     </div>
                     <div class="column">
-                        <h2 class="ui icon header">
+                        <h3 class="ui icon header">
                             <i class="settings icon"></i>
                             <div class="content">
                                 Account Settings
                                 <div class="sub header">Manage your account settings and set e-mail preferences.</div>
                             </div>
-                        </h2>
+                        </h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="center aligned column">
-                        <a class="ui huge button">Check Them Out</a>
+                        <a class="ui huge button blue">learn more</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <div class="ui vertical stripe segment">
-        <div class="ui text container">
-            <h3 class="ui header">Breaking The Grid, Grabs Your Attention</h3>
-            <p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>
-            <a class="ui large button">Read More</a>
-            <h4 class="ui horizontal header divider">
-                <a href="#">Case Studies</a>
-            </h4>
-            <h3 class="ui header">Did We Tell You About Our Bananas?</h3>
-            <p>Yes I know you probably disregarded the earlier boasts as non-sequitor filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.</p>
-            <a class="ui large button">I'm Still Quite Interested</a>
+    <section class="projects">
+        <div class="ui container">
+            <div class="ui centered grid">
+                <div class="ten wide center aligned column">
+                    <a class="ui label prev-slide">
+                        <img class="ui image" src="images/arrow-left.png">
+                    </a>
+                    <a class="ui label next-slide">
+                        <img class="ui image" src="images/arrow-right.png">
+                    </a>
+                    <div class="ui items">
+                        <div class="item">
+                            <h2 class="ui center aligned header">
+                                <div class="sub header">WHAT WE DO</div>
+                                H2 services heading
+                            </h2>
+                            <div class="extra">
+                                <a class="ui large blue button">view project</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h2 class="ui center aligned header">
+                                <div class="sub header">WHAT WE DO</div>
+                                H2 services heading
+                            </h2>
+                            <div class="extra">
+                                <a class="ui large blue button">view project</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h2 class="ui center aligned header">
+                                <div class="sub header">WHAT WE DO</div>
+                                H2 services heading
+                            </h2>
+                            <div class="extra">
+                                <a class="ui large blue button">view project</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="testimonials">
+        <div class="ui container">
+            <div class="ui centered grid">
+                <div class="ten wide center aligned column">
+                    <!--section header-->
+                    <h2 class="ui center aligned header">
+                        <div class="sub header">TESTIMONIALS</div>
+                        Our customers love us
+                    </h2><!--section header-->
+
+                    <div class="ui active tab" data-tab="t1">
+                        We have worked with Steve and the team at Sentinel on a number of projects from trouble shooting existing sites to launching new ones. I would have no hesitation in recommending them.
+                    </div>
+                    <div class="ui tab" data-tab="t2">
+                        We have worked with Steve and the team at Sentinel on a number of projects from trouble s.
+                    </div>
+                    <div class="ui tab" data-tab="t3">
+                        We have worked with Steve
+                    </div>
+
+                    <div class="ui tabular compact menu">
+                        <a class="active item" data-tab="t1">
+                            <img class="ui circular image" src="http://placehold.it/35x35">
+                        </a>
+                        <a class="item" data-tab="t2">
+                            <img class="ui circular image" src="http://placehold.it/35x35">
+                        </a>
+                        <a class="item" data-tab="t3">
+                            <img class="ui circular image" src="http://placehold.it/35x35">
+                        </a>
+                    </div>
+              </div>
         </div>
     </div>
+    </section>
 
+    <section class="work-with-us">
+        <div class="ui center aligned container">
+            <div class="ui centered grid">
+                <div class="ten wide column"><div class="ui fitted divider"></div></div>
+            </div>
+            <!--section header-->
+            <h2 class="ui header blue">
+                Want to work with us?
+                <div class="sub header">Sint omittam voluptatibus pri an, exerci bonorum impedit in nam</div>
+            </h2><!--section header-->
+            <a class="ui large blue button">get in touch now</a>
+        </div>
+    </section>
 
-    <div class="ui inverted vertical footer segment">
+    <footer class="ui inverted vertical footer segment">
         <div class="ui container">
             <div class="ui stackable inverted divided equal height stackable grid">
                 <div class="three wide column">
@@ -226,7 +348,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
 </div>
 
 </body>

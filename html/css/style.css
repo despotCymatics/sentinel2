@@ -2,6 +2,11 @@ body {
 
 
 }
+*:focus {
+    outline:0;
+    outline: none;
+    outline-color: transparent;
+}
 /* Semantic Overrides */
 @media only screen and (min-width: 1200px) {
     .ui.container {
@@ -18,8 +23,9 @@ body {
 .ui.button {
     text-transform: uppercase;
     font-size: 11px !important;
-    padding: 16px 40px;
+    padding: 16px 0;
     letter-spacing: 1px;
+    width: 170px;
 }
 .ui.white.button {
     background: #fff;
@@ -30,6 +36,22 @@ body {
     background: #eee;
 }
 
+/*section & section headers*/
+section{
+    padding-top: 6.5em;
+    padding-bottom: 6.5em;
+}
+h2.ui.header {
+    font-size: 1.875rem;
+    color: #16161a;
+    font-weight: lighter;
+    padding-bottom: 65px;
+}
+h2.ui.header .sub.header {
+    font-size: 1rem;
+    color: #999;
+    padding-bottom: 25px;
+}
 /* Header */
 
 .ui.menu .logo {
@@ -101,7 +123,7 @@ body {
 }
 .home .masthead.segment {
     min-height: 750px;
-    padding: 1em 0em;
+    padding: 1em 0;
     background: url(../images/home-head-bg.jpg) no-repeat center center;
 }
 
@@ -127,12 +149,7 @@ body {
 
 
 
-.ui.vertical.stripe {
-    padding: 8em 0em;
-}
-.ui.vertical.stripe h3 {
-    font-size: 2em;
-}
+
 .ui.vertical.stripe .button + h3,
 .ui.vertical.stripe p + h3 {
     margin-top: 3em;
@@ -144,11 +161,11 @@ body {
     font-size: 1.33em;
 }
 .ui.vertical.stripe .horizontal.divider {
-    margin: 3em 0em;
+    margin: 3em 0;
 }
 
 .quote.stripe.segment {
-    padding: 0em;
+    padding: 0;
 }
 .quote.stripe.segment .grid .column {
     padding-top: 5em;
@@ -156,10 +173,83 @@ body {
 }
 
 .footer.segment {
-    padding: 5em 0em;
+    padding: 5em 0;
 }
 
 
+h3.ui.header{
+    font-weight: bold;
+}
+h3.ui.icon.header .icon {
+    padding-bottom: 30px;
+}
+h3.ui.header .sub.header {
+    padding-top: 26px;
+    color: #78909c;
+}
+.clients {
+    background-color: #f7f7f7;
+}
+.clients .ui.container .grid > .column:not(.row) {
+     padding-bottom: 0;
+}
+.work-with-us h2.ui.header{
+    color: #0f8ec7;
+    padding-bottom: 0;
+}
+.work-with-us h2.ui.header .sub.header{
+    color: #78909c;
+    padding: 30px 0;
+}
+.work-with-us .ui.fitted.divider{
+    margin-top: -3.15em;
+}
+.work-with-us{
+    margin-top: -80px;
+}
+.projects{
+    background: url(../images/projects-bg.jpg) no-repeat center center;
+}
+.projects h2.ui.header {
+    color: #fff;
+}
+.projects h2.ui.header .sub.header {
+    color: #fff;
+}
+.projects .next-slide{
+    position: absolute;
+    top:50%;
+    right: 0;
+}
+.projects .prev-slide{
+    position: absolute;
+    top:50%;
+    left: 0;
+}
 
-
-
+.testimonials .ui.menu{
+    border: none;
+    box-shadow: none;
+}
+.testimonials .ui.menu .item{
+    opacity: 0.3;
+}
+.testimonials .ui.menu .item{
+    cursor: pointer;
+}
+.testimonials .ui.menu .active.item{
+    opacity: 1;
+    background: transparent;
+}
+.testimonials .ui.tabular.menu .active.item{
+    border: none;
+}
+.testimonials .ui.tabular.menu .item{
+    padding: 10px;
+}
+.testimonials .ui.tab{
+    font-size: 18px;
+    color: #0f8ec7;
+    height: 120px;
+    line-height: 30px;
+}
