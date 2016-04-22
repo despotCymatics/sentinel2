@@ -44,9 +44,10 @@ h2.ui.header {
     color: #16161a;
     font-weight: lighter;
     padding-bottom: 4.3rem;
+    margin: 0;
 }
 h2.ui.header .sub.header {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #adadad;
     padding-bottom: 1.8rem;
     line-height: 1.4rem;
@@ -170,9 +171,12 @@ h2.ui.header .sub.header {
     padding-top: 5em;
     padding-bottom: 5em;
 }
-
+.footer .ui.section.divider{
+    margin-top: 4.2rem;
+}
 .footer.segment {
-    padding: 5em 0;
+    padding: 4.3rem 0 2.2rem 0;
+    background-color: #f4f4f6 !important;
 }
 
 
@@ -188,9 +192,7 @@ h3.ui.header .sub.header {
 }
 .clients {
     background-color: #f7f7f7;
-}
-.clients .ui.container .grid > .column:not(.row) {
-     padding-bottom: 0;
+    padding: 10px 0;
 }
 .work-with-us h2.ui.header{
     color: #0f8ec7;
@@ -204,7 +206,7 @@ h3.ui.header .sub.header {
     margin-top: -3.15em;
 }
 .work-with-us{
-    margin-top: -5.7rem;
+    margin-top: -7.5rem;
 }
 .projects{
     background: url(../images/projects-bg.jpg) no-repeat center center;
