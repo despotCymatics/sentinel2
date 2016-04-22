@@ -1,6 +1,4 @@
 body {
-
-
 }
 *:focus {
     outline:0;
@@ -38,19 +36,20 @@ body {
 
 /*section & section headers*/
 section{
-    padding-top: 6.5em;
-    padding-bottom: 6.5em;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
 }
 h2.ui.header {
     font-size: 1.875rem;
     color: #16161a;
     font-weight: lighter;
-    padding-bottom: 65px;
+    padding-bottom: 4.3rem;
 }
 h2.ui.header .sub.header {
-    font-size: 1rem;
-    color: #999;
-    padding-bottom: 25px;
+    font-size: 0.8rem;
+    color: #adadad;
+    padding-bottom: 1.8rem;
+    line-height: 1.4rem;
 }
 /* Header */
 
@@ -181,10 +180,10 @@ h3.ui.header{
     font-weight: bold;
 }
 h3.ui.icon.header .icon {
-    padding-bottom: 30px;
+    padding-bottom: 2.15rem;
 }
 h3.ui.header .sub.header {
-    padding-top: 26px;
+    padding-top: 1.85rem;
     color: #78909c;
 }
 .clients {
@@ -199,13 +198,13 @@ h3.ui.header .sub.header {
 }
 .work-with-us h2.ui.header .sub.header{
     color: #78909c;
-    padding: 30px 0;
+    padding: 2.25rem 0;
 }
 .work-with-us .ui.fitted.divider{
     margin-top: -3.15em;
 }
 .work-with-us{
-    margin-top: -80px;
+    margin-top: -5.7rem;
 }
 .projects{
     background: url(../images/projects-bg.jpg) no-repeat center center;
@@ -248,8 +247,8 @@ h3.ui.header .sub.header {
     padding: 10px;
 }
 .testimonials .ui.tab{
-    font-size: 18px;
+    font-size: 1.28rem;
     color: #0f8ec7;
-    height: 120px;
-    line-height: 30px;
+    min-height: 8.5rem;
+    line-height: 2.15rem;
 }
