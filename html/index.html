@@ -49,6 +49,9 @@
 
                 //Initialize slick slider
                 $('.projects .items').slick({
+                    fade: true,
+                    easing:'easeOutQuart',
+                    speed: 800,
                     slidesToScroll: 1,
                     autoplay: true,
                     autoplaySpeed: 6000,
@@ -108,13 +111,15 @@
                         <a class="item">About</a>
                         <a class="item">What we do</a>
                         <a class="item">Blog</a>
+
+                        <a class="item phone"><i class="phone icon"></i> (1) 234-567-89</a>
                         <a class="item">Contact</a>
                     </div>
                 </div>
             </div>
             <div class="ui container">
                 <div class="call-to-action">
-                    <h1 class="ui inverted header">Digital is nothing without roadmap</h1>
+                    <h1 class="ui inverted header">Digital is nothing without a roadmap</h1>
                     <p>Feugiat lobortis hendrerit cu mea, ei duo mutat partem nusquam. Ex ridens audiam latine pri, pri porro incorrupte no. Melius appetere vulputate te mea.
                     </p>
                     <div class="ui large white button">see our work</div>
@@ -123,7 +128,7 @@
         </div>
         <div class="clients">
             <div class="ui container">
-                <div class="ui six column grid">
+                <div class="ui six column doubling grid">
                     <div class="column">
                         <img class="ui centered image" src="images/clients/nike.png">
                     </div>
@@ -226,44 +231,43 @@
     </section>
 
     <section class="projects">
-        <div class="ui container">
-            <div class="ui centered grid">
-                <div class="ten wide center aligned column">
-                    <a class="ui label prev-slide">
-                        <img class="ui image" src="images/arrow-left.png">
-                    </a>
-                    <a class="ui label next-slide">
-                        <img class="ui image" src="images/arrow-right.png">
-                    </a>
-                    <div class="ui items">
-                        <div class="item">
-                            <h2 class="ui center aligned header">
-                                <div class="sub header">WHAT WE DO</div>
-                                H2 services heading
-                            </h2>
-                            <div class="extra">
-                                <a class="ui large blue button">view project</a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <h2 class="ui center aligned header">
-                                <div class="sub header">WHAT WE DO</div>
-                                H2 services heading
-                            </h2>
-                            <div class="extra">
-                                <a class="ui large blue button">view project</a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <h2 class="ui center aligned header">
-                                <div class="sub header">WHAT WE DO</div>
-                                H2 services heading
-                            </h2>
-                            <div class="extra">
-                                <a class="ui large blue button">view project</a>
-                            </div>
-                        </div>
+        <div class="nav-holder">
+            <a class="ui label prev-slide">
+                <img class="ui image" src="images/arrow-left.png">
+            </a>
+            <a class="ui label next-slide">
+                <img class="ui image" src="images/arrow-right.png">
+            </a>
+        </div>
 
+        <div class="ui items">
+            <div class="big-bg" style="background-image: url(images/projects-bg1.jpg)">
+                <div class="ui container centered grid">
+                    <div class="ten wide center aligned column">
+                        <div class="item">
+                            <h2 class="ui center aligned header">
+                                <div class="sub header">WHAT WE DO</div>
+                                H2 services heading
+                            </h2>
+                            <div class="extra">
+                                <a class="ui large blue button">view project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="big-bg" style="background-image: url(images/projects-bg2.jpg)">
+                <div class="ui container centered grid">
+                    <div class="ten wide center aligned column">
+                        <div class="item">
+                            <h2 class="ui center aligned header">
+                                <div class="sub header">WHAT WE DO</div>
+                                Another H2 services heading
+                            </h2>
+                            <div class="extra">
+                                <a class="ui large blue button">view project</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -273,24 +277,30 @@
 
     <section class="testimonials">
         <div class="ui container">
-            <div class="ui centered grid">
+            <h2 class="ui center aligned header">
+                <div class="sub header">TESTIMONIALS</div>
+                Our customers love us
+            </h2>
+            <div class="ui centered stackable right aligned grid">
+                <div class="three wide right aligned column">
+                    <img class="ui image inline q" src="images/quote-left.png">
+                </div>
                 <div class="ten wide center aligned column">
-                    <!--section header-->
-                    <h2 class="ui center aligned header">
-                        <div class="sub header">TESTIMONIALS</div>
-                        Our customers love us
-                    </h2><!--section header-->
-
                     <div class="ui active tab" data-tab="t1">
-                        We have worked with Steve and the team at Sentinel on a number of projects from trouble shooting existing sites to launching new ones. I would have no hesitation in recommending them.
-                    </div>
+                        We have worked with Steve and the team at Sentinel on a number of projects from trouble shooting existing sites to launching new ones. I would have no hesitation in recommending them.</div>
                     <div class="ui tab" data-tab="t2">
-                        We have worked with Steve and the team at Sentinel on a number of projects from trouble s.
+                        We have worked with Steve and the team at Sentinel on a number of projects from troubles.
                     </div>
                     <div class="ui tab" data-tab="t3">
                         We have worked with Steve
                     </div>
 
+
+                </div>
+                <div class="three wide column">
+                    <img class="ui image inline q" src="images/quote-right.png">
+                </div>
+                <div class="ten wide center aligned column row">
                     <div class="ui tabular compact menu">
                         <a class="active item" data-tab="t1">
                             <img class="ui circular image" src="http://placehold.it/35x35">
@@ -302,9 +312,9 @@
                             <img class="ui circular image" src="http://placehold.it/35x35">
                         </a>
                     </div>
-              </div>
+                </div>
+            </div>
         </div>
-    </div>
     </section>
 
     <section class="work-with-us">
@@ -323,12 +333,12 @@
 
     <footer class="ui vertical footer segment">
         <div class="ui container">
-            <div class="ui stackable equal height grid">
+            <div class="ui stackable mobile reversed equal height grid">
                 <div class="six wide column">
                     <img class="ui image" src="images/logo-footer.png">
                 </div>
                 <div class="ten wide column">
-                <div class="ui four column grid">
+                <div class="ui four column doubling grid">
                 <div class="column">
                     <h4 class="ui header">About</h4>
                     <div class="ui link list">
@@ -368,8 +378,19 @@
                     </div>
                 </div>
             </div>
+
             <div class="ui section divider"></div>
-            <div class="ui item">2015 c Sentinel Software Ltd.  hello@sentinelactive.com</div>
+            <div class="ui stackable equal height right aligned grid">
+                <div class="eight wide column left aligned">
+                    <div class="ui item">(1) 801-473-82852015 <span class="dot">•</span> hello@sentinelactive.com</div>
+                </div>
+                <div class="eight wide column">
+                    <div class="ui item">© Sentinel Software Ltd. 2016 </div>
+
+                </div>
+            </div>
+
+
         </div>
     </footer>
 </div>

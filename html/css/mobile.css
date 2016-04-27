@@ -1,6 +1,24 @@
+@media only screen and (max-width: 900px) {
+    .projects .prev-slide{
+        left: 30px;
+        margin: 0;
+    }
+
+    .projects .next-slide{
+        right: 30px;
+        margin: 0;
+    }
 
 
-@media only screen and (max-width: 700px) {
+}
+
+@media only screen and (max-width: 767px) {
+
+    section {
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+    }
+
     .ui.fixed.menu {
         display: none !important;
     }
@@ -21,5 +39,44 @@
     .masthead h2 {
         margin-top: 0.5em;
         font-size: 1.5em;
+    }
+
+    .home .masthead .call-to-action {
+        width: 100%;
+        text-align: center;
+    }
+
+    .home .masthead h1.ui.header {
+        margin-top: 3em;
+    }
+
+    .home .masthead.segment {
+        min-height: 560px;
+    }
+    footer .image {
+        margin: 30px auto 0 auto;
+    }
+
+    footer .ui.grid.aligned .column{
+        text-align: center !important;
+    }
+
+    .testimonials {
+        background: none;
+    }
+    .testimonials .image.q {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .work-with-us {
+        background: none;
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 400px) {
+
+    footer .dot {
+        display: block;
     }
 }

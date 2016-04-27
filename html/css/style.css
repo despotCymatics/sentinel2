@@ -207,9 +207,12 @@ h3.ui.header .sub.header {
 }
 .work-with-us{
     margin-top: -7.5rem;
+    background: url(../images/elements2-bg.jpg) 0 0 no-repeat;
+    background-size: 100%;
 }
 .projects{
-    background: url(../images/projects-bg.jpg) no-repeat center center;
+    padding: 0;
+    position: relative;
 }
 .projects h2.ui.header {
     color: #fff;
@@ -217,15 +220,36 @@ h3.ui.header .sub.header {
 .projects h2.ui.header .sub.header {
     color: #fff;
 }
-.projects .next-slide{
-    position: absolute;
-    top:50%;
-    right: 0;
-}
+
 .projects .prev-slide{
     position: absolute;
     top:50%;
-    left: 0;
+    left: 50%;
+    margin-left: -400px;
+    cursor: pointer;
+    z-index: 2;
+}
+.projects .next-slide{
+    position: absolute;
+    top:50%;
+    right: 50%;
+    margin-right: -400px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.projects .big-bg {
+    background-size: cover;
+    background-position: center;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    top: 0;
+    bottom: 0;
+}
+
+.testimonials {
+    background: url(../images/elements1-bg.jpg) 0 0 no-repeat;
+    background-size: 100%;
 }
 
 .testimonials .ui.menu{
@@ -253,4 +277,8 @@ h3.ui.header .sub.header {
     color: #0f8ec7;
     min-height: 8.5rem;
     line-height: 2.15rem;
+}
+
+.testimonials .image.q {
+    margin-top: 20px;
 }
