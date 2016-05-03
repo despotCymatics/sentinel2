@@ -26,44 +26,8 @@
     <script src="dist/components/transition.js"></script>
     <script src="dist/components/tab.min.js"></script>
     <script src="js/slick.min.js"></script>
-    <script>
-        $(document)
-            .ready(function() {
+    <script src="js/custom.js"></script>
 
-                // fix menu when passed
-                $('.masthead')
-                        .visibility({
-                            once: false,
-                            onBottomPassed: function() {
-                                $('.fixed.menu').transition('fade in');
-                            },
-                            onBottomPassedReverse: function() {
-                                $('.fixed.menu').transition('fade out');
-                            }
-                        })
-                ;
-
-                // create sidebar and attach to menu open
-                $('.ui.sidebar').sidebar('attach events', '.toc.item');
-                $('.masthead .white.button').transition('jiggle');
-
-                //Initialize slick slider
-                $('.projects .items').slick({
-                    fade: true,
-                    easing:'easeOutQuart',
-                    speed: 800,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 6000,
-                    prevArrow: $('.prev-slide'),
-                    nextArrow: $('.next-slide')
-                });
-
-                //Initialize testimonials tabs
-                $('.testimonials .tabular.compact.menu .item').tab();
-            })
-        ;
-    </script>
 </head>
 
 <body class="home">
@@ -72,27 +36,37 @@
 <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
     <div class="ui container">
-        <a href="#" class="logo">
-            <img class="" src="images/logo-color.png">
-        </a>
+        <div class="top">
+            <a href="#" class="logo-symbol">
+                <img class="" src="images/logo-symbol.png">
+            </a>
+            <a href="#" class="logo">
+                <img class="" src="images/logo-color.png">
+            </a>
+            <a class="phone">(1) 801-473-8285</a>
+            <a class="hamburger" href="#"><i class="sidebar icon"></i></a>
+        </div>
+
+
         <div class="right menu">
             <a class="active item">Work</a>
             <a class="item">About</a>
             <a class="item">What we do</a>
             <a class="item">Blog</a>
-            <a class="item">Contact</a>
+            <a class="item phone"><i class="phone icon"></i>(1) 801-473-8285</a>
+            <a class="item contact-item">Contact</a>
         </div>
     </div>
 </div>
 
 <!-- Sidebar Menu -->
-<div class="ui vertical inverted sidebar menu">
+<!--div class="ui vertical inverted sidebar menu">
     <a class="active item">Work</a>
     <a class="item">About</a>
     <a class="item">What we do</a>
     <a class="item">Blog</a>
     <a class="item">Contact</a>
-</div>
+</div-->
 
 <!-- Page Contents -->
 <div class="pusher">
@@ -100,9 +74,9 @@
         <div class="ui inverted vertical masthead center aligned segment">
             <div class="ui container">
                 <div class="ui secondary menu">
-                    <a class="toc item">
+                    <!--a class="toc item">
                         <i class="sidebar icon"></i>
-                    </a>
+                    </a-->
                     <a href="#" class="logo">
                         <img class="" src="images/logo-white.png">
                     </a>
@@ -111,9 +85,11 @@
                         <a class="item">About</a>
                         <a class="item">What we do</a>
                         <a class="item">Blog</a>
-
-                        <a class="item phone"><i class="phone icon"></i> (1) 234-567-89</a>
-                        <a class="item">Contact</a>
+                        <a class="item phone"><i class="phone icon"></i>(1) 801-473-8285</a>
+                        <a class="item contact-item">Contact</a>
+                        <a class="toc item">
+                            <i class="sidebar icon"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -166,28 +142,28 @@
                 <div class="center aligned row">
                     <div class="column">
                         <h3 class="ui icon header">
-                            <i class="settings icon"></i>
+                            <div class="services-icon"><img src="images/svg/01_web.svg"></div>
                             <div class="content">
                                 Account Settings
-                                <div class="sub header">Manage your account settings and set e-mail preferences.</div>
+                                <div class="sub header">Recteque percipitur ius no, has corpora suavitate ex. Est ut inani facete partiendo. An pri facer falli audire. Omittam argumentum an per.</div>
                             </div>
                         </h3>
                     </div>
                     <div class="column">
                         <h3 class="ui icon header">
-                            <i class="settings icon"></i>
+                            <div class="services-icon"><img src="images/svg/02_mobile.svg"></div>
                             <div class="content">
                                 Account Settings
-                                <div class="sub header">Manage your account settings and set e-mail preferences.</div>
+                                <div class="sub header">Recteque percipitur ius no, has corpora suavitate ex. Est ut inani facete partiendo. An pri facer falli audire. Omittam argumentum an per.</div>
                             </div>
                         </h3>
                     </div>
                     <div class="column">
                         <h3 class="ui icon header">
-                            <i class="settings icon"></i>
+                            <div class="services-icon"><img src="images/svg/03_design.svg"></div>
                             <div class="content">
                                 Account Settings
-                                <div class="sub header">Manage your account settings and set e-mail preferences.</div>
+                                <div class="sub header">Recteque percipitur ius no, has corpora suavitate ex. Est ut inani facete partiendo. An pri facer falli audire. Omittam argumentum an per.</div>
                             </div>
                         </h3>
                     </div>
@@ -195,28 +171,28 @@
                 <div class="center aligned row">
                     <div class="column">
                         <h3 class="ui icon header">
-                            <i class="settings icon"></i>
+                            <div class="services-icon"><img src="images/svg/04_intelligence.svg"></div>
                             <div class="content">
                                 Account Settings
-                                <div class="sub header">Manage your account settings and set e-mail preferences.</div>
+                                <div class="sub header">Recteque percipitur ius no, has corpora suavitate ex. Est ut inani facete partiendo. An pri facer falli audire. Omittam argumentum an per.</div>
                             </div>
                         </h3>
                     </div>
                     <div class="column">
                         <h3 class="ui icon header">
-                            <i class="settings icon"></i>
+                            <div class="services-icon"><img src="images/svg/05_growth.svg"></div>
                             <div class="content">
                                 Account Settings
-                                <div class="sub header">Manage your account settings and set e-mail preferences.</div>
+                                <div class="sub header">Recteque percipitur ius no, has corpora suavitate ex. Est ut inani facete partiendo. An pri facer falli audire. Omittam argumentum an per.</div>
                             </div>
                         </h3>
                     </div>
                     <div class="column">
                         <h3 class="ui icon header">
-                            <i class="settings icon"></i>
+                            <div class="services-icon"><img src="images/svg/06_social.svg"></div>
                             <div class="content">
                                 Account Settings
-                                <div class="sub header">Manage your account settings and set e-mail preferences.</div>
+                                <div class="sub header">Recteque percipitur ius no, has corpora suavitate ex. Est ut inani facete partiendo. An pri facer falli audire. Omittam argumentum an per.</div>
                             </div>
                         </h3>
                     </div>

@@ -57,10 +57,23 @@ h2.ui.header .sub.header {
 .ui.menu .logo {
     width: 124px;
     padding: 10px 0;
+    display: inline-block;
 }
 
-.ui.menu .logo img {
+.ui.menu .logo-symbol {
+    display: none;
+    width: 25px;
+}
+
+.ui.menu .logo img, .ui.menu .logo-symbol img {
     width: 100%;
+}
+
+.ui.menu .top a.phone {
+    display: none;
+}
+.ui.menu .top a.hamburger {
+    display: none;
 }
 .ui.menu .right a.item, .ui.secondary.menu a.item {
     text-transform: uppercase;
@@ -74,13 +87,35 @@ h2.ui.header .sub.header {
 
 .ui.secondary.menu .item.active {
     background-color: transparent;
-    color: #61cdff;
+    color: inherit;
 }
 
 .ui.secondary.menu a.item:hover, .ui.secondary.menu a.active.item:hover {
+    color: #61cdff;
+    background: transparent;
+}
+
+.ui.secondary.menu a.item.contact-item{
     background: #fff;
     color: #0f8ec7;
 }
+
+.ui.secondary.menu a.item.contact-item:hover {
+    background: #e6e6e6;
+}
+
+.item.phone {
+    line-height: 22px !important;
+}
+
+.ui.menu .item.phone i.icon {
+    font-size: 1.8em;
+    transform: rotate(90deg);
+
+}
+
+/* Menu Fixed*/
+
 .ui.menu.fixed {
     padding: 10px;
     /*box-shadow: none;*/
@@ -95,12 +130,21 @@ h2.ui.header .sub.header {
 
 .ui.menu.fixed .right a.item.active {
     background-color: transparent;
-    color: #61cdff;
+    color: #999999;
 }
 
 .ui.menu.fixed .right a.item:hover {
+    background: transparent;
+    color: #0f8ec7;
+}
+
+.ui.menu.fixed .right a.item.contact-item{
     background: #0f8ec7;
     color: #fff;
+}
+
+.ui.menu.fixed .right a.item.contact-item:hover {
+    background: #0e7bad;
 }
 
 .ui.menu .item:before {
@@ -146,11 +190,6 @@ h2.ui.header .sub.header {
 .home .masthead h1.ui.header + p {
     margin-bottom: 3em;
 }
-
-
-
-
-.ui.vertical.stripe .button + h3,
 .ui.vertical.stripe p + h3 {
     margin-top: 3em;
 }
@@ -178,7 +217,16 @@ h2.ui.header .sub.header {
     padding: 4.3rem 0 2.2rem 0;
     background-color: #f4f4f6 !important;
 }
-
+.services-icon {
+    background-color: #e0f7fa;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.services-icon img {
+    display: block;
+}
 
 h3.ui.header{
     font-weight: bold;
@@ -187,13 +235,15 @@ h3.ui.icon.header .icon {
     padding-bottom: 2.15rem;
 }
 h3.ui.header .sub.header {
-    padding-top: 1.85rem;
+    padding-top: 1.3rem;
     color: #78909c;
+    line-height: 2;
 }
 .clients {
     background-color: #f7f7f7;
     padding: 10px 0;
 }
+
 .work-with-us h2.ui.header{
     color: #0f8ec7;
     padding-bottom: 0;

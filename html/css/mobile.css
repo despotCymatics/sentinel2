@@ -1,3 +1,81 @@
+
+@media only screen and (max-width: 991px) {
+    .ui.secondary.menu .right.menu {
+        display: none;
+    }
+    .ui.menu.fixed {
+        padding: 0;
+    }
+    .ui.fixed.menu {
+        display: block !important;
+
+    }
+    .ui.fixed.menu .right.menu {
+        display: none;
+        float: none;
+        margin-left: 0 !important;
+        padding: 20px 0;
+        border-top: 1px solid #ddd;
+    }
+    .ui.menu > .grid, .ui.menu > .container {
+        flex-direction: column;
+    }
+
+    .ui.fixed.menu .right.menu a {
+        display: block;
+        text-align: center;
+        font-size: 14px;
+        padding: 20px;
+    }
+    .ui.fixed.menu .right.menu a.item.phone {
+        display: none;
+    }
+    .ui.fixed.menu .right.menu a.item.contact-item {
+        background: transparent;
+        color: #999;
+    }
+    .ui.fixed.menu .right.menu a.item.contact-item:hover {
+        color: #0f8ec7;
+    }
+
+    .ui.menu .top {
+        display: table;
+        width: 100%;
+        padding: 15px 20px;
+    }
+    .ui.menu .top a.logo {
+        display: none;
+    }
+    .ui.menu .top a.phone, .ui.menu .top a.logo-symbol, .ui.menu .top a.hamburger {
+        display: table-cell;
+    }
+    .ui.menu .top a.hamburger i.icon {
+        font-size: 1.5em;
+        line-height: 1em;
+        color: #16161a;
+
+    }
+
+    .ui.menu .top a.hamburger i.icon.close:before {
+        content: "\f00d";
+    }
+    .ui.menu .top a.phone {
+        padding: 0;
+        vertical-align: middle;
+        text-align: center;
+        color: #999;
+        font-weight: 600;
+    }
+
+    .ui.menu .top a.hamburger {
+        padding: 0;
+        vertical-align: middle;
+        text-align: right;
+        width: 25px;
+
+    }
+
+}
 @media only screen and (max-width: 900px) {
     .projects .prev-slide{
         left: 30px;
@@ -19,9 +97,6 @@
         padding-bottom: 3.5rem;
     }
 
-    .ui.fixed.menu {
-        display: none !important;
-    }
     .ui.secondary.menu .item,
     .ui.secondary.menu .right.menu {
         display: none;
