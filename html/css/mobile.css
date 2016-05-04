@@ -1,4 +1,12 @@
 
+@media only screen and (max-width: 1200px) {
+
+    .home .masthead .pop-holder {
+        display: none;
+    }
+
+}
+
 @media only screen and (max-width: 991px) {
     .ui.secondary.menu .right.menu {
         display: none;

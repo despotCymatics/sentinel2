@@ -165,6 +165,9 @@ h2.ui.header .sub.header {
 .ui.secondary.menu .toc.item i {
     margin: 0;
 }
+
+/* Masterhead */
+
 .home .masthead.segment {
     min-height: 750px;
     padding: 1em 0;
@@ -186,6 +189,118 @@ h2.ui.header .sub.header {
     font-size: 36px;
     font-weight: lighter;
 }
+
+.home .masthead .pop-holder {
+    position: relative;
+}
+
+.home .masthead .pop {
+    position: absolute;
+    padding: 15px 30px;
+    background: rgba(255,255,255,.1);
+    border: 1px solid #61cdff;
+    font-size: 11px;
+    text-transform: uppercase;
+    opacity: 0;
+
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-fill-mode:forwards;
+
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode:forwards;
+}
+
+.home .masthead .pop span {
+    display: block;
+    font-size: 14px;
+}
+
+.home .masthead .pop:after {
+    content: "";
+    display: block;
+    width: 1px;
+    background: #61cdff;;
+    height: 20px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+
+}
+
+.home .masthead .pop1 {
+    top: -102px;
+    left: 583px;
+
+    -webkit-animation-name: pop1; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 1s;
+
+    animation-name: pop1;
+    animation-delay: 1s;
+
+}
+
+@-webkit-keyframes pop1 {
+    0% {
+        top:-70px;
+        opacity: 0;
+    }
+
+    100% {
+        top: -102px;
+        opacity: 1;
+    }
+}
+
+
+.home .masthead .pop2 {
+    top: -26px;
+    left: 833px;
+
+    -webkit-animation-name: pop2;
+    -webkit-animation-delay: 1.5s;
+
+    animation-name: pop2;
+    animation-delay: 1.5s;
+
+}
+
+@-webkit-keyframes pop2 {
+    0% {
+        top:0px;
+        opacity: 0;
+    }
+
+    100% {
+        top: -26px;
+        opacity: 1;
+    }
+}
+
+.home .masthead .pop3 {
+    top: -252px;
+    left: 972px;
+
+    -webkit-animation-name: pop3;
+    -webkit-animation-delay: 2s;
+
+    animation-name: pop3;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes pop3 {
+    0% {
+        top:-222px;
+        opacity: 0;
+    }
+
+    100% {
+        top: -252px;
+        opacity: 1;
+    }
+}
+
 
 .home .masthead h1.ui.header + p {
     margin-bottom: 3em;
