@@ -27,7 +27,7 @@ $(document)
         $('.ui.sidebar').sidebar('attach events', '.toc.item');
         $('.masthead .white.button').transition('jiggle');
 
-        //Initialize slick slider
+        //Initialize slick slider home page
         $('.projects .items').slick({
             fade: true,
             easing:'easeOutQuart',
@@ -39,7 +39,34 @@ $(document)
             nextArrow: $('.next-slide')
         });
 
+        //Initialize slick slider product page
+        $('.project .slider .items').slick({
+            dots: true,
+            arrows: false,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+        });
+
         //Initialize testimonials tabs
         $('.testimonials .tabular.compact.menu .item').tab();
-    })
-;
+
+
+        //Initialize read more/less section
+        $('.readmore').readmore({
+            speed: 75,
+            collapsedHeight: 90,
+            moreLink: '<div class="link"><a href="">READ MORE</a></div>',
+            lessLink: '<div class="link"><a href="">READ LESS</a></div>'
+        });
+
+        //Initialize hover on team member images
+        $('.our-team .image')
+            .dimmer({
+                on: 'hover',
+                opacity: 0.5
+
+            });
+
+    });

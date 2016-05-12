@@ -2,9 +2,183 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9b301ed-a7a2-4ac8-8204-4a9f6fdd91ff" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/clients/audi.png" afterPath="$PROJECT_DIR$/html/images/clients/audi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/elements-bg.jpg" afterPath="$PROJECT_DIR$/html/images/elements-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/elements1-bg.jpg" afterPath="$PROJECT_DIR$/html/images/elements1-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/elements2-bg.jpg" afterPath="$PROJECT_DIR$/html/images/elements2-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/clients/google.png" afterPath="$PROJECT_DIR$/html/images/clients/google.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/home-head-bg.jpg" afterPath="$PROJECT_DIR$/html/images/home-head-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/logo-color.png" afterPath="$PROJECT_DIR$/html/images/logo-color.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/logo-footer.png" afterPath="$PROJECT_DIR$/html/images/logo-footer.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/logo-white.png" afterPath="$PROJECT_DIR$/html/images/logo-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/clients/master.png" afterPath="$PROJECT_DIR$/html/images/clients/master.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/projects-bg.jpg" afterPath="$PROJECT_DIR$/html/images/projects-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/projects-bg1.jpg" afterPath="$PROJECT_DIR$/html/images/projects-bg1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/projects-bg2.jpg" afterPath="$PROJECT_DIR$/html/images/projects-bg2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/quote-left.png" afterPath="$PROJECT_DIR$/html/images/quote-left.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/quote-right.png" afterPath="$PROJECT_DIR$/html/images/quote-right.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/svg/01_web.svg" afterPath="$PROJECT_DIR$/html/images/svg/01_web.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/svg/02_mobile.svg" afterPath="$PROJECT_DIR$/html/images/svg/02_mobile.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/svg/03_design.svg" afterPath="$PROJECT_DIR$/html/images/svg/03_design.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/svg/04_intelligence.svg" afterPath="$PROJECT_DIR$/html/images/svg/04_intelligence.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/svg/05_growth.svg" afterPath="$PROJECT_DIR$/html/images/svg/05_growth.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/images/svg/06_social.svg" afterPath="$PROJECT_DIR$/html/images/svg/06_social.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/accordion.css" afterPath="$PROJECT_DIR$/html/dist/components/accordion.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/accordion.js" afterPath="$PROJECT_DIR$/html/dist/components/accordion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/accordion.min.css" afterPath="$PROJECT_DIR$/html/dist/components/accordion.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/accordion.min.js" afterPath="$PROJECT_DIR$/html/dist/components/accordion.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/ad.css" afterPath="$PROJECT_DIR$/html/dist/components/ad.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/ad.min.css" afterPath="$PROJECT_DIR$/html/dist/components/ad.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/api.js" afterPath="$PROJECT_DIR$/html/dist/components/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/api.min.js" afterPath="$PROJECT_DIR$/html/dist/components/api.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/html/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/bootstrap.css" afterPath="$PROJECT_DIR$/html/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/html/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/breadcrumb.css" afterPath="$PROJECT_DIR$/html/dist/components/breadcrumb.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/breadcrumb.min.css" afterPath="$PROJECT_DIR$/html/dist/components/breadcrumb.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/button.css" afterPath="$PROJECT_DIR$/html/dist/components/button.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/button.min.css" afterPath="$PROJECT_DIR$/html/dist/components/button.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/card.css" afterPath="$PROJECT_DIR$/html/dist/components/card.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/card.min.css" afterPath="$PROJECT_DIR$/html/dist/components/card.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/checkbox.css" afterPath="$PROJECT_DIR$/html/dist/components/checkbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/checkbox.js" afterPath="$PROJECT_DIR$/html/dist/components/checkbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/checkbox.min.css" afterPath="$PROJECT_DIR$/html/dist/components/checkbox.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/checkbox.min.js" afterPath="$PROJECT_DIR$/html/dist/components/checkbox.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/colorize.js" afterPath="$PROJECT_DIR$/html/dist/components/colorize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/colorize.min.js" afterPath="$PROJECT_DIR$/html/dist/components/colorize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/comment.css" afterPath="$PROJECT_DIR$/html/dist/components/comment.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/comment.min.css" afterPath="$PROJECT_DIR$/html/dist/components/comment.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/container.css" afterPath="$PROJECT_DIR$/html/dist/components/container.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/container.min.css" afterPath="$PROJECT_DIR$/html/dist/components/container.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/custom.js" afterPath="$PROJECT_DIR$/html/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/dimmer.css" afterPath="$PROJECT_DIR$/html/dist/components/dimmer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/dimmer.js" afterPath="$PROJECT_DIR$/html/dist/components/dimmer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/dimmer.min.css" afterPath="$PROJECT_DIR$/html/dist/components/dimmer.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/dimmer.min.js" afterPath="$PROJECT_DIR$/html/dist/components/dimmer.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/divider.css" afterPath="$PROJECT_DIR$/html/dist/components/divider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/divider.min.css" afterPath="$PROJECT_DIR$/html/dist/components/divider.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/dropdown.css" afterPath="$PROJECT_DIR$/html/dist/components/dropdown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/dropdown.js" afterPath="$PROJECT_DIR$/html/dist/components/dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/dropdown.min.css" afterPath="$PROJECT_DIR$/html/dist/components/dropdown.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/dropdown.min.js" afterPath="$PROJECT_DIR$/html/dist/components/dropdown.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/embed.css" afterPath="$PROJECT_DIR$/html/dist/components/embed.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/embed.js" afterPath="$PROJECT_DIR$/html/dist/components/embed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/embed.min.css" afterPath="$PROJECT_DIR$/html/dist/components/embed.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/embed.min.js" afterPath="$PROJECT_DIR$/html/dist/components/embed.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/feed.css" afterPath="$PROJECT_DIR$/html/dist/components/feed.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/feed.min.css" afterPath="$PROJECT_DIR$/html/dist/components/feed.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/flag.css" afterPath="$PROJECT_DIR$/html/dist/components/flag.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/flag.min.css" afterPath="$PROJECT_DIR$/html/dist/components/flag.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/form.css" afterPath="$PROJECT_DIR$/html/dist/components/form.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/form.js" afterPath="$PROJECT_DIR$/html/dist/components/form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/form.min.css" afterPath="$PROJECT_DIR$/html/dist/components/form.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/form.min.js" afterPath="$PROJECT_DIR$/html/dist/components/form.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/html/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/grid.css" afterPath="$PROJECT_DIR$/html/dist/components/grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/grid.min.css" afterPath="$PROJECT_DIR$/html/dist/components/grid.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/header.css" afterPath="$PROJECT_DIR$/html/dist/components/header.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/header.min.css" afterPath="$PROJECT_DIR$/html/dist/components/header.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/icon.css" afterPath="$PROJECT_DIR$/html/dist/components/icon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/icon.min.css" afterPath="$PROJECT_DIR$/html/dist/components/icon.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/themes/basic/assets/fonts/icons.svg" afterPath="$PROJECT_DIR$/html/dist/themes/basic/assets/fonts/icons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/themes/default/assets/fonts/icons.svg" afterPath="$PROJECT_DIR$/html/dist/themes/default/assets/fonts/icons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/fonts/icons.svg" afterPath="$PROJECT_DIR$/html/fonts/icons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/image.css" afterPath="$PROJECT_DIR$/html/dist/components/image.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/image.min.css" afterPath="$PROJECT_DIR$/html/dist/components/image.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/input.css" afterPath="$PROJECT_DIR$/html/dist/components/input.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/input.min.css" afterPath="$PROJECT_DIR$/html/dist/components/input.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/item.css" afterPath="$PROJECT_DIR$/html/dist/components/item.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/item.min.css" afterPath="$PROJECT_DIR$/html/dist/components/item.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/label.css" afterPath="$PROJECT_DIR$/html/dist/components/label.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/label.min.css" afterPath="$PROJECT_DIR$/html/dist/components/label.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/list.css" afterPath="$PROJECT_DIR$/html/dist/components/list.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/list.min.css" afterPath="$PROJECT_DIR$/html/dist/components/list.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/loader.css" afterPath="$PROJECT_DIR$/html/dist/components/loader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/loader.min.css" afterPath="$PROJECT_DIR$/html/dist/components/loader.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/menu.css" afterPath="$PROJECT_DIR$/html/dist/components/menu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/message.css" afterPath="$PROJECT_DIR$/html/dist/components/message.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/message.min.css" afterPath="$PROJECT_DIR$/html/dist/components/message.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/mobile.css" afterPath="$PROJECT_DIR$/html/css/mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/modal.css" afterPath="$PROJECT_DIR$/html/dist/components/modal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/modal.js" afterPath="$PROJECT_DIR$/html/dist/components/modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/modal.min.css" afterPath="$PROJECT_DIR$/html/dist/components/modal.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/modal.min.js" afterPath="$PROJECT_DIR$/html/dist/components/modal.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/nag.css" afterPath="$PROJECT_DIR$/html/dist/components/nag.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/nag.js" afterPath="$PROJECT_DIR$/html/dist/components/nag.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/nag.min.css" afterPath="$PROJECT_DIR$/html/dist/components/nag.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/nag.min.js" afterPath="$PROJECT_DIR$/html/dist/components/nag.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/popup.css" afterPath="$PROJECT_DIR$/html/dist/components/popup.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/popup.js" afterPath="$PROJECT_DIR$/html/dist/components/popup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/popup.min.css" afterPath="$PROJECT_DIR$/html/dist/components/popup.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/popup.min.js" afterPath="$PROJECT_DIR$/html/dist/components/popup.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/progress.css" afterPath="$PROJECT_DIR$/html/dist/components/progress.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/progress.js" afterPath="$PROJECT_DIR$/html/dist/components/progress.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/progress.min.css" afterPath="$PROJECT_DIR$/html/dist/components/progress.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/progress.min.js" afterPath="$PROJECT_DIR$/html/dist/components/progress.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/rail.css" afterPath="$PROJECT_DIR$/html/dist/components/rail.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/rail.min.css" afterPath="$PROJECT_DIR$/html/dist/components/rail.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/rating.css" afterPath="$PROJECT_DIR$/html/dist/components/rating.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/rating.js" afterPath="$PROJECT_DIR$/html/dist/components/rating.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/rating.min.css" afterPath="$PROJECT_DIR$/html/dist/components/rating.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/rating.min.js" afterPath="$PROJECT_DIR$/html/dist/components/rating.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/reset.css" afterPath="$PROJECT_DIR$/html/dist/components/reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/reset.min.css" afterPath="$PROJECT_DIR$/html/dist/components/reset.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/reveal.css" afterPath="$PROJECT_DIR$/html/dist/components/reveal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/reveal.min.css" afterPath="$PROJECT_DIR$/html/dist/components/reveal.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/search.css" afterPath="$PROJECT_DIR$/html/dist/components/search.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/search.js" afterPath="$PROJECT_DIR$/html/dist/components/search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/search.min.css" afterPath="$PROJECT_DIR$/html/dist/components/search.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/search.min.js" afterPath="$PROJECT_DIR$/html/dist/components/search.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/segment.css" afterPath="$PROJECT_DIR$/html/dist/components/segment.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/segment.min.css" afterPath="$PROJECT_DIR$/html/dist/components/segment.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/semantic-base.css" afterPath="$PROJECT_DIR$/html/css/semantic-base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/semantic.css" afterPath="$PROJECT_DIR$/html/dist/semantic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/semantic.js" afterPath="$PROJECT_DIR$/html/dist/semantic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/semantic.min.css" afterPath="$PROJECT_DIR$/html/dist/semantic.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/semantic.min.js" afterPath="$PROJECT_DIR$/html/dist/semantic.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/shape.css" afterPath="$PROJECT_DIR$/html/dist/components/shape.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/shape.js" afterPath="$PROJECT_DIR$/html/dist/components/shape.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/shape.min.css" afterPath="$PROJECT_DIR$/html/dist/components/shape.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/shape.min.js" afterPath="$PROJECT_DIR$/html/dist/components/shape.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/sidebar.css" afterPath="$PROJECT_DIR$/html/dist/components/sidebar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/sidebar.js" afterPath="$PROJECT_DIR$/html/dist/components/sidebar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/sidebar.min.css" afterPath="$PROJECT_DIR$/html/dist/components/sidebar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/sidebar.min.js" afterPath="$PROJECT_DIR$/html/dist/components/sidebar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/site.css" afterPath="$PROJECT_DIR$/html/dist/components/site.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/site.js" afterPath="$PROJECT_DIR$/html/dist/components/site.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/site.min.css" afterPath="$PROJECT_DIR$/html/dist/components/site.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/site.min.js" afterPath="$PROJECT_DIR$/html/dist/components/site.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/slick.css" afterPath="$PROJECT_DIR$/html/css/slick.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/state.js" afterPath="$PROJECT_DIR$/html/dist/components/state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/state.min.js" afterPath="$PROJECT_DIR$/html/dist/components/state.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/statistic.css" afterPath="$PROJECT_DIR$/html/dist/components/statistic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/statistic.min.css" afterPath="$PROJECT_DIR$/html/dist/components/statistic.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/step.css" afterPath="$PROJECT_DIR$/html/dist/components/step.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/step.min.css" afterPath="$PROJECT_DIR$/html/dist/components/step.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/sticky.css" afterPath="$PROJECT_DIR$/html/dist/components/sticky.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/sticky.js" afterPath="$PROJECT_DIR$/html/dist/components/sticky.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/sticky.min.css" afterPath="$PROJECT_DIR$/html/dist/components/sticky.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/sticky.min.js" afterPath="$PROJECT_DIR$/html/dist/components/sticky.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/style.css" afterPath="$PROJECT_DIR$/html/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/tab.css" afterPath="$PROJECT_DIR$/html/dist/components/tab.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/tab.js" afterPath="$PROJECT_DIR$/html/dist/components/tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/tab.min.css" afterPath="$PROJECT_DIR$/html/dist/components/tab.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/tab.min.js" afterPath="$PROJECT_DIR$/html/dist/components/tab.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/table.css" afterPath="$PROJECT_DIR$/html/dist/components/table.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/table.min.css" afterPath="$PROJECT_DIR$/html/dist/components/table.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/transition.css" afterPath="$PROJECT_DIR$/html/dist/components/transition.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/transition.js" afterPath="$PROJECT_DIR$/html/dist/components/transition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/transition.min.css" afterPath="$PROJECT_DIR$/html/dist/components/transition.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/transition.min.js" afterPath="$PROJECT_DIR$/html/dist/components/transition.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/video.css" afterPath="$PROJECT_DIR$/html/dist/components/video.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/video.js" afterPath="$PROJECT_DIR$/html/dist/components/video.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/video.min.css" afterPath="$PROJECT_DIR$/html/dist/components/video.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/video.min.js" afterPath="$PROJECT_DIR$/html/dist/components/video.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/visibility.js" afterPath="$PROJECT_DIR$/html/dist/components/visibility.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/visibility.min.js" afterPath="$PROJECT_DIR$/html/dist/components/visibility.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/visit.js" afterPath="$PROJECT_DIR$/html/dist/components/visit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/dist/components/visit.min.js" afterPath="$PROJECT_DIR$/html/dist/components/visit.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sentinel.iws" />
@@ -33,8 +207,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.541666" vertical-offset="962" max-vertical-offset="5925">
-              <caret line="105" column="40" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
+            <state vertical-scroll-proportion="-33.125" vertical-offset="270" max-vertical-offset="5760">
+              <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -43,21 +217,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/css/style.css">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3887" max-vertical-offset="6810">
-              <caret line="285" column="30" selection-start-line="285" selection-start-column="30" selection-end-line="285" selection-end-column="30" />
+            <state vertical-scroll-proportion="-25.0" vertical-offset="495" max-vertical-offset="8595">
+              <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobile.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="what-we-do.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/what-we-do.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-26.875" vertical-offset="225" max-vertical-offset="3795">
+              <caret line="58" column="14" selection-start-line="37" selection-start-column="8" selection-end-line="58" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.892858" vertical-offset="655" max-vertical-offset="9390">
+              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="case-study.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/case-study.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.125" vertical-offset="450" max-vertical-offset="3165">
+              <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.39473686" vertical-offset="315" max-vertical-offset="4635">
+              <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mobile.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/css/mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.066815145" vertical-offset="0" max-vertical-offset="2565">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state vertical-scroll-proportion="-10.357142" vertical-offset="2230" max-vertical-offset="3105">
+              <caret line="168" column="5" selection-start-line="168" selection-start-column="3" selection-end-line="168" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -66,8 +280,8 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1170">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -97,10 +311,14 @@
         <option value="$PROJECT_DIR$/html/css/semantic-base.css" />
         <option value="$PROJECT_DIR$/html/dist/components/site.css" />
         <option value="$PROJECT_DIR$/html/dist/components/header.css" />
-        <option value="$PROJECT_DIR$/html/js/custom.js" />
-        <option value="$PROJECT_DIR$/html/index.html" />
-        <option value="$PROJECT_DIR$/html/css/style.css" />
         <option value="$PROJECT_DIR$/html/css/mobile.css" />
+        <option value="$PROJECT_DIR$/html/js/custom.js" />
+        <option value="$PROJECT_DIR$/html/css/style.css" />
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/html/about.html" />
+        <option value="$PROJECT_DIR$/html/what-we-do.html" />
+        <option value="$PROJECT_DIR$/html/case-study.html" />
+        <option value="$PROJECT_DIR$/html/blog.html" />
       </list>
     </option>
   </component>
@@ -137,16 +355,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -183,26 +391,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sentinel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sentinel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -248,15 +448,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -307,7 +507,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -316,7 +516,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17270789" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17430703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -350,9 +550,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16965227" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -382,6 +582,41 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1575" max-vertical-offset="5820">
+          <caret line="105" column="40" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3887" max-vertical-offset="6810">
+          <caret line="285" column="30" selection-start-line="285" selection-start-column="30" selection-end-line="285" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2565">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="765">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2910" max-vertical-offset="5730">
@@ -585,16 +820,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1170">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.357142" vertical-offset="2230" max-vertical-offset="3105">
+          <caret line="168" column="5" selection-start-line="168" selection-start-column="3" selection-end-line="168" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.892858" vertical-offset="655" max-vertical-offset="9390">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.541666" vertical-offset="962" max-vertical-offset="5925">
-          <caret line="105" column="40" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
+        <state vertical-scroll-proportion="-33.125" vertical-offset="270" max-vertical-offset="5760">
+          <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -602,18 +853,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/style.css">
+    <entry file="file://$PROJECT_DIR$/html/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3887" max-vertical-offset="6810">
-          <caret line="285" column="30" selection-start-line="285" selection-start-column="30" selection-end-line="285" selection-end-column="30" />
+        <state vertical-scroll-proportion="-25.0" vertical-offset="495" max-vertical-offset="8595">
+          <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/mobile.css">
+    <entry file="file://$PROJECT_DIR$/html/what-we-do.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.066815145" vertical-offset="0" max-vertical-offset="2565">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state vertical-scroll-proportion="-26.875" vertical-offset="225" max-vertical-offset="3795">
+          <caret line="58" column="14" selection-start-line="37" selection-start-column="8" selection-end-line="58" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/case-study.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.125" vertical-offset="450" max-vertical-offset="3165">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39473686" vertical-offset="315" max-vertical-offset="4635">
+          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
           <folding />
         </state>
       </provider>

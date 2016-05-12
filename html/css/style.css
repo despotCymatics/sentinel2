@@ -1,11 +1,28 @@
 body {
+    color: #78909c;
+    line-height: 1.5;
 }
 *:focus {
     outline:0;
     outline: none;
     outline-color: transparent;
 }
+body.no-hero{
+    padding-top: 80px;
+}
+.no-padding{
+    padding-top: 0;
+    padding-bottom: 0;
+}
 /* Semantic Overrides */
+@media only screen and (max-width: 767px){
+    .ui.container {
+        width: auto;
+        margin-left: 1.5rem !important;
+        margin-right: 1.5rem !important;
+    }
+}
+
 @media only screen and (min-width: 1200px) {
     .ui.container {
         width: 1200px;
@@ -24,6 +41,7 @@ body {
     padding: 16px 0;
     letter-spacing: 1px;
     width: 170px;
+    border-radius: 0.2rem;
 }
 .ui.white.button {
     background: #fff;
@@ -39,15 +57,19 @@ section{
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
 }
+h1.ui.header{
+    font-size: 36px;
+    font-weight: lighter;
+}
 h2.ui.header {
-    font-size: 1.875rem;
+    font-size: 30px;
     color: #16161a;
     font-weight: lighter;
     padding-bottom: 4.3rem;
     margin: 0;
 }
-h2.ui.header .sub.header {
-    font-size: 1rem;
+section h2.ui.header .sub.header {
+    font-size: 13px;
     color: #adadad;
     padding-bottom: 1.8rem;
     line-height: 1.4rem;
@@ -166,7 +188,7 @@ h2.ui.header .sub.header {
     margin: 0;
 }
 
-/* Masterhead */
+/* Home Masterhead */
 
 .home .masthead.segment {
     min-height: 750px;
@@ -342,7 +364,10 @@ h2.ui.header .sub.header {
 .services-icon img {
     display: block;
 }
-
+.content .description{
+    line-height: 24px;
+    text-align: justify;
+}
 h3.ui.header{
     font-weight: bold;
 }
@@ -446,4 +471,151 @@ h3.ui.header .sub.header {
 
 .testimonials .image.q {
     margin-top: 20px;
+}
+
+/* About */
+
+.about .masthead.segment {
+    min-height: 510px;
+    padding: 1em 0;
+    background-image: linear-gradient(rgba(15, 142, 199, 0.85) 100%,rgba(15, 142, 199, 0.85)), url(../images/about-head.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about .header h1{
+    padding-top: 11.4rem;
+}
+section .content, .our-team .ui.header .sub.header{
+    color: #78909c;
+}
+.about .our-team .ui .header .content{
+    font-size: 13px;
+    font-weight: bold;
+    color: #16161A;
+}
+.about .our-team{
+    background-color: #f7f7f7;
+}
+.about .our-team img{
+    max-width: 170px;
+}
+.about .our-team .card{
+    text-align: -webkit-center;
+}
+
+.our-process {
+    background: url(../images/elements3-bg.jpg) 0 0 no-repeat;
+    background-size: cover;
+}
+
+.careers {
+    background: #fafafa;
+}
+
+.about .ui.image {
+    display: table-cell;
+}
+
+.about .ui.dimmer {
+    content: "Sitting Expert";
+    z-index: 100;
+}
+
+/* What We Do */
+
+.what-we-do .work-with-us, .careers .work-with-us{
+    background: none;
+}
+.what-we-do .services, .what-we-do .work-with-us{
+    background-color: #f7f7f7;
+}
+
+/* Careers */
+.careers-work-with-us {
+    padding-bottom: 4em;
+}
+.open-positions .apply{
+    width: 100px;
+    padding: 14px 30px;
+}
+.open-positions .link{
+    text-transform: uppercase;
+    color: #0f8ec7;
+    font-size:0.78rem;
+    padding-top: 25px;
+}
+.open-positions .ui.vertical.segment{
+    padding: 2rem 0;
+    color: #78909c;
+}
+.open-positions .ui.vertical.segment:first-child,
+.blog-list .ui.vertical.segment:first-child{
+    border-top: 1px solid rgba(34, 36, 38, 0.15);
+ }
+.open-positions .ui.vertical.segment:last-child,
+.blog-list .ui.vertical.segment:last-child{
+    border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+}
+/*BLOG*/
+
+.blog-list .ui.vertical.segment{
+    padding: 3rem 0;
+}
+.blog-list h3.ui.header{
+    padding-bottom: 1.2rem;
+    color: #0f8ec7;
+    font-weight: lighter;
+    font-size: 1.7rem;
+}
+.blog-list .content.date{
+    color: #16161a;
+    font-size: 11px;
+}
+.blog-list .content.date img{
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+.blog-list .content.description{
+    padding-bottom: 25px;
+    text-align: justify;
+}
+.blog-list .ui.link.new a{
+    color: #0f8ec7;
+    border: 2px solid #0f8ec7;
+    padding: 7px 20px;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.blog .prev-next{
+    padding-top: 30px;
+}
+
+/*Project / Case Study*/
+
+.project .content .description{
+    padding-bottom: 90px;
+}
+.slider {
+
+}
+
+.slick-dots {
+    bottom: 50px;
+}
+
+.case-info {
+    padding: 90px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.case-info p {
+    margin-bottom: 5px;
+}
+
+.case-info h5 {
+    font-size: 18px;
+    color: #000;
+    margin-top: 10px;
 }
