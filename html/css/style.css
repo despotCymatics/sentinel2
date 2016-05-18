@@ -71,7 +71,7 @@ h2.ui.header {
 section h2.ui.header .sub.header {
     font-size: 13px;
     color: #adadad;
-    padding-bottom: 1.8rem;
+    padding-bottom: 1rem;
     line-height: 1.4rem;
 }
 /* Header */
@@ -535,6 +535,10 @@ section .content, .our-team .ui.header .sub.header{
 .careers-work-with-us {
     padding-bottom: 4em;
 }
+
+.open-positions {
+    margin-top: 80px;
+}
 .open-positions .apply{
     width: 100px;
     padding: 14px 30px;
@@ -549,6 +553,18 @@ section .content, .our-team .ui.header .sub.header{
     padding: 2rem 0;
     color: #78909c;
 }
+
+.open-positions .excerpt {
+    margin-bottom: 30px;
+}
+
+.open-positions .more {
+    display: none;
+}
+.readmore {
+    cursor: pointer;
+}
+
 .open-positions .ui.vertical.segment:first-child,
 .blog-list .ui.vertical.segment:first-child{
     border-top: 1px solid rgba(34, 36, 38, 0.15);
@@ -592,6 +608,26 @@ section .content, .our-team .ui.header .sub.header{
     padding-top: 30px;
 }
 
+.blog-post .share{
+    text-align: center;
+}
+
+.blog-post .share img{
+    padding: 0;
+}
+.share a {
+    color: #16161a;
+    font-size: 11px;
+    line-height: 16px;
+    display: inline-flex;
+}
+.share a:before {
+    background: url("../images/icons/share.png") 0 0 no-repeat;
+    width: 30px;
+    height: 15px;
+    content: "";
+    display: inline-block;
+}
 /*Project / Case Study*/
 
 .project .content .description{
@@ -618,4 +654,77 @@ section .content, .our-team .ui.header .sub.header{
     font-size: 18px;
     color: #000;
     margin-top: 10px;
+}
+
+.project .project-details .ui.header,
+.project .project-details .ui.segment{
+    margin: 0;
+    padding-left: 0;
+}
+.project .slider{
+    margin-bottom: 140px;
+}
+.project .intro .content{
+    margin-bottom: 90px;
+}
+.project .project-details{
+    margin-bottom: 60px;
+}
+.project .project-details .sub.header{
+    padding-bottom: 10px;
+}
+.projects .items .item:first-child{
+     padding-bottom: 40px;
+ }
+
+/*Work*/
+
+.work .work-with-us {
+    margin-top: 0;
+    background: none;
+}
+
+/*Blog Post*/
+.blog-post .post-details .item{
+    padding-bottom: 20px;
+}
+.blog-post .post-details .header{
+    text-transform: uppercase;
+}
+.blog-post .post-content content img{
+    width: 100%;
+}
+.blog-post .post-content .content img,.blog-post .post-content .content p{
+    padding-bottom: 60px;
+}
+
+/* Contact */
+
+.contact h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #16161a;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.contact p{
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+.ui.form .field input, .ui.form .field textarea {
+    border-radius: 1px;
+    line-height: 32px;
+}
+.ui.form .field input:focus, .ui.form .field textarea:focus {
+    border-radius: 1px;
+}
+
+section.map {
+    padding: 0;
+    text-align: center;
+}
+
+section.map img {
+    width: 100%;
+    display: block;
 }

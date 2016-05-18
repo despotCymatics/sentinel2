@@ -28,7 +28,7 @@ $(document)
         $('.masthead .white.button').transition('jiggle');
 
         //Initialize slick slider home page
-        $('.projects .items').slick({
+        $('.home .projects .items').slick({
             fade: true,
             easing:'easeOutQuart',
             speed: 800,
@@ -54,19 +54,29 @@ $(document)
 
 
         //Initialize read more/less section
-        $('.readmore').readmore({
-            speed: 75,
-            collapsedHeight: 90,
-            moreLink: '<div class="link"><a href="">READ MORE</a></div>',
-            lessLink: '<div class="link"><a href="">READ LESS</a></div>'
+        $('.readmore').click(function(e) {
+            e.preventDefault();
+            $(this).prev(".more").toggle(200);
+            $(this).text($(this).text() == 'READ MORE' ? 'READ LESS' : 'READ MORE');
+
         });
 
-        //Initialize hover on team member images
-        $('.our-team .image')
-            .dimmer({
-                on: 'hover',
-                opacity: 0.5
+        /*$('.readmore').readmore({
+            speed: 75,
+            collapsedHeight: 100,
+            moreLink: '<div class="link"><a href="">READ MORE</a></div>',
+            lessLink: '<div class="link"><a href="">READ LESS</a></div>'
+        });*/
 
-            });
+        //Initialize hover on team member images
+        if($('.our-team .image').length > 0){
+            $('.our-team .image')
+                .dimmer({
+                    on: 'hover',
+                    opacity: 0.5
+
+                });
+        }
+
 
     });
