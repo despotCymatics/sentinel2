@@ -379,6 +379,11 @@ h3.ui.header .sub.header {
     color: #78909c;
     line-height: 2;
 }
+
+.services h3.ui.header .sub.header {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .clients {
     background-color: #f7f7f7;
     padding: 10px 0;
