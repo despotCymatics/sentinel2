@@ -613,6 +613,21 @@ section .content, .our-team .ui.header .sub.header{
     padding-top: 30px;
 }
 
+.blog-post h2.ui.header {
+    position: relative;
+    margin-left: 100px;
+}
+
+.blog-post h2.ui.header:before {
+    content: "";
+    width: 70px;
+    height: 1px;
+    background: #0f8ec7;
+    position: absolute;
+    top: 19px;
+    left: -100px;
+}
+
 .blog-post .share{
     text-align: center;
 }
@@ -620,6 +635,11 @@ section .content, .our-team .ui.header .sub.header{
 .blog-post .share img{
     padding: 0;
 }
+
+.blog-post .content img {
+    max-width: 100%;
+}
+
 .share a {
     color: #16161a;
     font-size: 11px;
@@ -667,7 +687,7 @@ section .content, .our-team .ui.header .sub.header{
     padding-left: 0;
 }
 .project .slider{
-    margin-bottom: 140px;
+
 }
 .project .intro .content{
     margin-bottom: 90px;
@@ -677,6 +697,9 @@ section .content, .our-team .ui.header .sub.header{
 }
 .project .project-details .sub.header{
     padding-bottom: 10px;
+}
+.project .prev-next {
+    margin-top: 15px;
 }
 .projects .items .item:first-child{
      padding-bottom: 40px;
@@ -695,6 +718,7 @@ section .content, .our-team .ui.header .sub.header{
 }
 .blog-post .post-details .header{
     text-transform: uppercase;
+    font-size: 11px;
 }
 .blog-post .post-content content img{
     width: 100%;
