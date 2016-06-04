@@ -2,7 +2,7 @@
 
 get_header();
 
-require_once("menu-fixed.php");
+require_once("follow-menu-mobile.php");
 
 ?>
 
@@ -32,7 +32,7 @@ require_once("menu-fixed.php");
 		</div>
 	</header>
 
-	<section class="our-work">
+	<section class="">
 		<div class="ui container">
 			<h2 class="ui center aligned header">
 				<div class="sub header"><?php the_field('subtitle'); ?></div>

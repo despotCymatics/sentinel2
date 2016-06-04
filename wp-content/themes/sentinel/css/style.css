@@ -12,8 +12,8 @@ body {
     outline: none;
     outline-color: transparent;
 }
-body.no-hero{
-    padding-top: 80px;
+.no-hero{
+    padding-top: 45px;
 }
 .no-padding{
     padding-top: 0;
@@ -72,6 +72,14 @@ p {
 
 .ui.white.button:hover {
     background: #eee;
+}
+.loading.ui.inverted.dimmer .ui.loader:before, .loading.ui.inverted.dimmer .ui.loader:after {
+    display: none;
+
+}
+
+.loading.ui.inverted.dimmer {
+    background: rgba(255, 255, 255, 0.95)
 }
 
 /*section & section headers*/
@@ -436,14 +444,15 @@ h3.ui.header .sub.header {
     background-size: 100%;
 }
 .projects{
-    padding: 0;
+    /*padding: 0;*/
+    padding-bottom: 0;
     position: relative;
 }
 .projects h2.ui.header {
-    color: #fff;
+    /*color: #fff;*/
 }
 .projects h2.ui.header .sub.header {
-    color: #fff;
+   /* color: #fff;*/
 }
 
 .projects .prev-slide{
@@ -502,7 +511,7 @@ h3.ui.header .sub.header {
 .testimonials .ui.tab{
     font-size: 1.28rem;
     color: #0f8ec7;
-    min-height: 8.5rem;
+    min-height: 6.5rem;
     line-height: 2.15rem;
 }
 .testimonials .image.q {
@@ -514,6 +523,14 @@ h3.ui.header .sub.header {
     font-size: 14px;
     color: #16161a;
     font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.testimonials .ui.tab > p:first-child {
+    margin-bottom: 2rem;
 }
 
 /* About */
@@ -589,7 +606,7 @@ section .content, .our-team .ui.header .sub.header{
     background-position-x: center;
 }
 
-.careers {
+.project, .careers {
     background: #fafafa;
 }
 
@@ -598,7 +615,6 @@ section .content, .our-team .ui.header .sub.header{
 }
 
 .about .ui.dimmer {
-    content: "Sitting Expert";
     z-index: 100;
 }
 
@@ -777,7 +793,7 @@ section .content, .our-team .ui.header .sub.header{
     margin-top: 15px;
 }
 .projects .items .item:first-child{
-     padding-bottom: 40px;
+
  }
 
 /*Work*/

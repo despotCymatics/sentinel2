@@ -1,6 +1,8 @@
 <?php
 require_once('custom_posts.php');
+
 add_theme_support('post-thumbnails');
+add_image_size( 'project-size', 970, 450, true );
 
 
 // hide admin bar for non-user

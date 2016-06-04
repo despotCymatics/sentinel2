@@ -1,3 +1,6 @@
+$( window ).load(function() {
+    $('.loading').fadeOut(320);
+});
 
 $(document)
     .ready(function() {

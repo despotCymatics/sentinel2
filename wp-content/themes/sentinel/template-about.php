@@ -5,7 +5,7 @@
 
 get_header();
 
-require_once("menu-fixed.php");
+require_once("follow-menu-mobile.php");
 
 ?>
 

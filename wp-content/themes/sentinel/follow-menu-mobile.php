@@ -1,5 +1,5 @@
-<?php
 
+<?php
 $defaults = array(
 	'theme_location'  => '',
 	'menu'            => 'Main menu',
@@ -18,7 +18,6 @@ $defaults = array(
 	'depth'           => 0,
 	'walker'          => new main_walker()
 );
-
 ?>
 
 <!-- Following Menu -->
