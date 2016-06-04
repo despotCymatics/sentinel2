@@ -1,0 +1,223 @@
+
+@media only screen and (max-width: 1200px) {
+
+    .home .masthead .pop-holder {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .ui.secondary.menu .right.menu {
+        display: none;
+    }
+    .ui.menu.fixed {
+        padding: 0;
+    }
+    .ui.fixed.menu {
+        display: block !important;
+
+    }
+    .ui.fixed.menu .right.menu {
+        display: none;
+        float: none;
+        margin-left: 0 !important;
+        padding: 20px 0;
+        border-top: 1px solid #ddd;
+    }
+    .ui.menu > .grid, .ui.menu > .container {
+        flex-direction: column;
+    }
+
+    .ui.fixed.menu .right.menu a {
+        display: block;
+        text-align: center;
+        font-size: 14px;
+        padding: 20px;
+    }
+    .ui.fixed.menu .right.menu a.item.phone {
+        display: none;
+    }
+    .ui.fixed.menu .right.menu a.item.contact-item {
+        background: transparent;
+        color: #999;
+    }
+    .ui.fixed.menu .right.menu a.item.contact-item:hover {
+        color: #0f8ec7;
+    }
+
+    .ui.menu .top {
+        display: table;
+        width: 100%;
+        padding: 15px 20px;
+    }
+    .ui.menu .top a.logo {
+        display: none;
+    }
+    .ui.menu .top a.phone, .ui.menu .top a.logo-symbol, .ui.menu .top a.hamburger {
+        display: table-cell;
+    }
+    .ui.menu .top a.hamburger i.icon {
+        font-size: 1.5em;
+        line-height: 1em;
+        color: #16161a;
+
+    }
+
+    .ui.menu .top a.hamburger i.icon.close:before {
+        content: "\f00d";
+    }
+    .ui.menu .top a.phone {
+        padding: 0;
+        vertical-align: middle;
+        text-align: center;
+        color: #999;
+        font-weight: 600;
+    }
+
+    .ui.menu .top a.hamburger {
+        padding: 0;
+        vertical-align: middle;
+        text-align: right;
+        width: 25px;
+
+    }
+
+}
+@media only screen and (max-width: 900px) {
+    .projects .prev-slide{
+        left: 30px;
+        margin: 0;
+    }
+
+    .projects .next-slide{
+        right: 30px;
+        margin: 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    section {
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+    }
+
+    .ui.secondary.menu .item,
+    .ui.secondary.menu .right.menu {
+        display: none;
+    }
+    .ui.secondary.menu .toc.item {
+        display: block;
+    }
+    .masthead.segment {
+        min-height: 350px;
+    }
+    .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+    }
+    .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+
+    .home .masthead .call-to-action {
+        width: 100%;
+        text-align: center;
+    }
+
+    .home .masthead h1.ui.header {
+        margin-top: 3em;
+    }
+
+    .home .masthead.segment {
+        min-height: 560px;
+    }
+    footer .image {
+        margin: 30px auto 0 auto;
+    }
+
+    footer .ui.grid.aligned .column{
+        text-align: center !important;
+    }
+    .testimonials {
+        background: none;
+    }
+    .testimonials .image.q {
+        display: block;
+        margin: 0 auto;
+    }
+    .work-with-us {
+        background: none;
+        margin-top: 0;
+    }
+    .our-process {
+        background: none;
+        margin-top: 0;
+    }
+
+    .careers h2.ui.header{
+        text-align: center !important;
+    }
+    .careers-work-with-us {
+        padding-bottom: 0;
+    }
+
+    section.map img {
+       min-height: 180px;
+        width: auto;
+    }
+
+    .blog-post h2.ui.header {
+        position: relative;
+        margin-left: 0px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .blog-post h2.ui.header:before{
+        bottom: 0px;
+        top: auto;
+        left: 0;
+    }
+}
+@media only screen and (max-width: 400px) {
+
+    footer .dot {
+        display: block;
+    }
+    .content .description{
+        text-align: justify;
+        line-height: 1.7rem;
+    }
+    h2.ui.header {
+        font-size: 1.875rem;
+        font-weight: lighter;
+    }
+    h2.ui.left.aligned.header{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .our-team .ui.header,
+    .our-team .ui.header .content,
+    .our-team .ui.header .sub.header{
+        text-align: center;
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+    }
+    .blog-list .ui.vertical.segment {
+        padding: 2.5rem 0 0 0;
+    }
+    .blog-list h3.ui.header {
+        padding-bottom: 1.3rem;
+        font-size: 1.4rem;
+    }
+    .blog-post h2.ui.header {
+        text-align: left;
+    }
+
+}

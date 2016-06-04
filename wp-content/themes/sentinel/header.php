@@ -1,7 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Standard Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="Author" content="Sentinel" />
+	<meta name="Keywords" content="some, key, words" />
+	<meta name="description" content="<?php bloginfo('description'); ?>" />
+
+	<!-- Site Properties -->
+	<title><?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title( '' ); ?></title>
+	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" />
+
+	<?php wp_head(); ?>
+
+</head>
+
 <?php
-/**
- * Created by PhpStorm.
- * User: despot
- * Date: 25.05.16
- * Time: 12:53
- */ 
+global $post;
+$slug = $post->post_name;
+?>
+
+<body class="<?php echo $slug; ?>">

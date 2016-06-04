@@ -14,6 +14,7 @@ body.no-hero{
     padding-top: 0;
     padding-bottom: 0;
 }
+
 /* Semantic Overrides */
 @media only screen and (max-width: 767px){
     .ui.container {

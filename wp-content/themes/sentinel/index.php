@@ -1,7 +1,5 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: despot
- * Date: 25.05.16
- * Time: 12:54
- */ 
+<?php get_header(); ?>
+
+
+<?php get_footer(); ?>
+
