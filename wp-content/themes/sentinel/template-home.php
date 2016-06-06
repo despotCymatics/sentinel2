@@ -5,7 +5,7 @@
 
 get_header();
 
-include("follow-menu-mobile.php");
+include( "inc/follow-menu-mobile.php" );
 
 ?>
 
@@ -24,16 +24,16 @@ include("follow-menu-mobile.php");
 			</div>
 		</div>
 		<div class="ui container">
+			<div class="pop-holder">
+				<div class="pop pop1"><span>25%</span>roi increase</div>
+				<div class="pop pop2"><span>25%</span>roi increase</div>
+				<div class="pop pop3"><span>25%</span>roi increase</div>
+			</div>
 			<div class="call-to-action">
 				<h1 class="ui inverted header">Digital is nothing without a roadmap</h1>
 				<p>Feugiat lobortis hendrerit cu mea, ei duo mutat partem nusquam. Ex ridens audiam latine pri, pri porro incorrupte no. Melius appetere vulputate te mea.
 				</p>
 				<div class="ui large white button"><a href="/work/">See our work</a></div>
-			</div>
-			<div class="pop-holder">
-				<div class="pop pop1"><span>25%</span>roi increase</div>
-				<div class="pop pop2"><span>25%</span>roi increase</div>
-				<div class="pop pop3"><span>25%</span>roi increase</div>
 			</div>
 		</div>
 
@@ -62,7 +62,7 @@ include("follow-menu-mobile.php");
 
 </header>
 
-<?php require_once('services-section.php'); ?>
+<?php include( 'inc/services-section.php' ); ?>
 
 <section class="projects">
 
@@ -160,18 +160,6 @@ if($count > 0) { ?>
 </section>
 <?php } ?>
 
-<section class="work-with-us">
-	<div class="ui center aligned container">
-		<div class="ui centered grid">
-			<div class="ten wide column"><div class="ui fitted divider"></div></div>
-		</div>
-		<!--section header-->
-		<h2 class="ui header blue">
-			Want to work with us?
-			<div class="description sub header">Sint omittam voluptatibus pri an, exerci bonorum impedit in nam</div>
-		</h2><!--section header-->
-		<a href="/contact/" class="ui large blue button">get in touch now</a>
-	</div>
-</section>
+<?php include( 'inc/work-with-us-section.php' );?>
 
 <?php get_footer(); ?>

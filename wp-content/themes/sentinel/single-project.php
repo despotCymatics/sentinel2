@@ -2,7 +2,7 @@
 
 get_header();
 
-include("follow-menu-mobile.php");
+include( "inc/follow-menu-mobile.php" );
 
 ?>
     <!-- Page Contents -->

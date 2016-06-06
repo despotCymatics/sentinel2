@@ -5,7 +5,7 @@
 
 get_header();
 
-include("follow-menu-mobile.php");
+include( "inc/follow-menu-mobile.php" );
 
 ?>
 
@@ -63,7 +63,8 @@ include("follow-menu-mobile.php");
 
                     <div class="ui grid items stackable">
                         <?php
-                        $args = array( 'post_type' => 'project', 'posts_per_page' => 9 );
+                        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+                        $args = array( 'post_type' => 'project', 'posts_per_page' => 7, 'paged' => $paged );
                         $loop = new WP_Query( $args );
                         $count = $loop->post_count;
                         $count = 0;
@@ -101,7 +102,7 @@ include("follow-menu-mobile.php");
                             <div class="ui hidden divider"></div>
                             <div class="content">
                                 <div class="ui header">
-                                    <h3><?php the_title();?></h3>
+                                    <h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
                                 </div>
                                 <div class="description">
                                     <?php the_excerpt();?>
@@ -114,29 +115,27 @@ include("follow-menu-mobile.php");
                         <?php } ?>
                         <?php endwhile; ?>
                     </div>
+	                <?php
+	                $GLOBALS['wp_query']->max_num_pages = $loop->max_num_pages;
+	                the_posts_pagination( array(
+		                'screen_reader_text' => ' ',
+		                'mid_size'           => 2,
+		                'prev_text'          => __( '<i class="long arrow left icon"></i>', 'sentinel' ),
+		                'next_text'          => __( '<i class="long arrow right icon"></i>', 'sentinel' ),
+	                ) );
+	                ?>
+	                <?php wp_reset_postdata();?>
                 </div>
             </div>
         </section>
 
-        <section class="work-with-us">
-            <div class="ui center aligned container">
-                <div class="ui centered grid">
-                    <div class="ten wide column"><div class="ui fitted divider"></div></div>
-                </div>
-                <!--section header-->
-                <h2 class="ui header blue">
-                    Want to work with us?
-                    <div class="description sub header">Sint omittam voluptatibus pri an, exerci bonorum impedit in nam</div>
-                </h2><!--section header-->
-                <a href="/contact/" class="ui large blue button">get in touch now</a>
-            </div>
-        </section>
-
+        <?php include('inc/work-with-us-section.php'); ?>
 
     </div>
     <?php
 endwhile;
 endif;
 ?>
+<?php wp_reset_postdata();?>
 
 <?php get_footer(); ?>
