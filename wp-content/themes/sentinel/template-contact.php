@@ -1,6 +1,6 @@
 <?php
 /*
-* Template Name: Work Projects
+* Template Name: Contact
  */
 
 get_header();
@@ -69,30 +69,14 @@ include( "inc/follow-menu-mobile.php" );
 					</div>
 
 					<div class="eight wide column">
-						<form class="ui form">
-							<div class="field">
-								<input type="text" name="name" placeholder="Name">
-							</div>
-							<div class="field">
-								<input type="email" name="email" placeholder="Email">
-							</div>
-							<div class="field">
-								<input type="text" name="subject" placeholder="Subject">
-							</div>
-							<div class="field">
-								<textarea name="message" placeholder="Your meassage here.."></textarea>
-							</div>
-							<br>
-							<button class="ui large blue button" type="submit">Send message</button>
-						</form>
-
+						<?php the_content(); ?>
 					</div>
 				</div>
 			</div>
 		</section>
 
 		<section class="map">
-			<a href="#"><img src="images/map.jpg"></a>
+			<a href="#"><img src="<?=get_template_directory_uri()?>/images/map.jpg"></a>
 		</section>
 
 	</div>

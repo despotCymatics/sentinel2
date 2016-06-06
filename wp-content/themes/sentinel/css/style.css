@@ -848,7 +848,12 @@ section .content, .our-team .ui.header .sub.header{
 .ui.form .field input, .ui.form .field textarea {
     border-radius: 1px;
     line-height: 32px;
+
 }
+.ui.form .field textarea {
+    height: 160px;
+}
+
 .ui.form .field input:focus, .ui.form .field textarea:focus {
     border-radius: 1px;
 }

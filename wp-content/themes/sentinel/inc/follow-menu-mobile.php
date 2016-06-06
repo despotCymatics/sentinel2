@@ -30,7 +30,7 @@ $defaults = array(
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo">
 				<img class="" src="<?=get_template_directory_uri()?>/images/logo-color.png">
 			</a>
-			<a href="tel:1801-473-8285" class="phone">(1) 801-473-8285</a>
+			<!--a href="tel:1801-473-8285" class="phone">(1) 801-473-8285</a-->
 			<a class="hamburger" href="#"><i class="sidebar icon"></i></a>
 		</div>
 		<div class="right menu">

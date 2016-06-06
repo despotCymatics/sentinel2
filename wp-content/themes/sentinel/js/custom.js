@@ -4,6 +4,9 @@ $( window ).load(function() {
 
 $(document)
     .ready(function() {
+
+        $('.fixed .right.menu a.phone').clone().insertBefore($('.hamburger')).removeClass('item');
+
         $('a.hamburger').click(function(e){
             e.preventDefault();
             $('.ui.fixed.menu .right.menu').slideToggle();
