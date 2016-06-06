@@ -20,16 +20,28 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'sentinel');
+//define('DB_NAME', 'sentinel');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+//define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'cym4t1ka');
+//define('DB_PASSWORD', 'cym4t1ka');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+//define('DB_HOST', 'localhost');
+
+
+define('DB_NAME', 'despot1_sentinel-dev');
+
+/** MySQL database username */
+define('DB_USER', 'despot1_sentinel');
+
+/** MySQL database password */
+define('DB_PASSWORD', '8Wqs0zPXZo');
+
+/** MySQL hostname */
+define('DB_HOST', '188.166.109.230');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');

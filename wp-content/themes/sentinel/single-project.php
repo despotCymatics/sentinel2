@@ -45,7 +45,7 @@ include("follow-menu-mobile.php");
                         </div>
                     </div>
                     <div class="ui sixteen wide column image fluid">
-                        <?php the_post_thumbnail();?>
+                        <?php the_post_thumbnail('project-size-single');?>
                     </div>
                 </div>
 
