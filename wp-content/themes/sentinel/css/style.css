@@ -48,6 +48,12 @@ p {
     }
 }
 
+.ui.container {
+
+}
+.ui.container img{
+    height: auto;
+}
 .ui.inverted.segment {
     background: #0F8EC7;
 }
@@ -200,6 +206,7 @@ section h2.ui.header .sub.header {
 .ui.menu.fixed .right a.item.contact-item{
     background: #0f8ec7;
     color: #fff;
+    margin-left: 16px;
 }
 
 .ui.menu.fixed .right a.item.contact-item:hover {
@@ -212,6 +219,10 @@ section h2.ui.header .sub.header {
 
 .hidden.menu {
     display: none;
+}
+
+.no-hero .hidden.menu {
+    display: block;
 }
 
 .ui.secondary.menu .toc.item {
@@ -448,7 +459,7 @@ h3.ui.header .sub.header {
 }
 .projects{
     /*padding: 0;*/
-    padding-bottom: 0;
+    padding-bottom: 30px;
     position: relative;
 }
 .projects h2.ui.header {
@@ -686,6 +697,7 @@ section .content, .our-team .ui.header .sub.header{
 .blog-list .content.date{
     color: #16161a;
     font-size: 11px;
+    text-transform: uppercase;
 }
 .blog-list .content.date img{
     margin-right: 1rem;
@@ -724,6 +736,8 @@ section .content, .our-team .ui.header .sub.header{
 
 .blog-post .share{
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 60px;
 }
 
 .blog-post .share img{
@@ -762,7 +776,7 @@ section .content, .our-team .ui.header .sub.header{
 
 .case-info {
     padding: 90px 0;
-    border-bottom: 1px solid #e0e0e0;
+    /*border-bottom: 1px solid #e0e0e0;*/
 }
 
 .case-info p {
@@ -792,8 +806,16 @@ section .content, .our-team .ui.header .sub.header{
 .project .project-details .sub.header{
     padding-bottom: 10px;
 }
-.project .prev-next {
+.blog-post .prev-next, .project .prev-next {
     margin-top: 15px;
+    border-top: 1px solid #e0e0e0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.blog-post .prev-next .column, .project .prev-next .column {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 .projects .items .item:first-child{
 
@@ -829,7 +851,12 @@ section .content, .our-team .ui.header .sub.header{
     width: 100%;
 }
 .blog-post .post-content .content img,.blog-post .post-content .content p{
-    padding-bottom: 60px;
+
+}
+.post-categories {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 /* Contact */

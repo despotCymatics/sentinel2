@@ -41,6 +41,7 @@
     .ui.fixed.menu .right.menu a.item.contact-item {
         background: transparent;
         color: #999;
+        margin-left: 0;
     }
     .ui.fixed.menu .right.menu a.item.contact-item:hover {
         color: #0f8ec7;

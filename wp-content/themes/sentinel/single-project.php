@@ -2,31 +2,13 @@
 
 get_header();
 
-include( "inc/follow-menu-mobile.php" );
 
 ?>
     <!-- Page Contents -->
     <div class="pusher project no-hero">
         <header class="header">
-            <div class="ui large top fixed menu">
-                <div class="ui container">
-                    <div class="top">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo-symbol">
-                            <img class="" src="<?=get_template_directory_uri()?>/images/logo-symbol.png">
-                        </a>
-                        <a href="#" class="logo">
-                            <img class="" src="<?=get_template_directory_uri()?>/images/logo-color.png">
-                        </a>
-                        <a href="tel:1 801-473-8285" class="phone">(1) 801-473-8285</a>
-                        <a class="hamburger" href="#"><i class="sidebar icon"></i></a>
-                    </div>
-                    <div class="right menu">
-                        <?php echo wp_nav_menu( $defaults ); ?>
-                    </div>
-                </div>
-            </div>
+            <?php include( "inc/follow-menu-mobile.php" ); ?>
         </header>
-
 
         <section class="project">
             <div class="ui container">
@@ -68,7 +50,7 @@ include( "inc/follow-menu-mobile.php" );
                         </div>
                     </div>
                 </div-->
-
+                <?php if(get_field('info-text') || get_field('info-text')){ ?>
                 <div class="case-info">
                     <div class="ui stackable grid">
                         <div class="row">
@@ -86,6 +68,7 @@ include( "inc/follow-menu-mobile.php" );
                         </div>
                     </div>
                 </div>
+                    <?php } ?>
 
                 <?php endwhile; ?>
                 <?php endif; ?>
