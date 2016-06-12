@@ -49,15 +49,13 @@
 		<div class="ui section divider"></div>
 		<div class="ui stackable equal height right aligned grid">
 			<div class="eight wide column left aligned">
-				<div class="ui item">(1) 801-473-82852015 <span class="dot">•</span> hello@sentinelactive.com</div>
+				<div class="ui item">(1) 801-473-8285 <span class="dot">•</span> hello@sentinelactive.com</div>
 			</div>
 			<div class="eight wide column">
 				<div class="ui item">&copy; Sentinel Software Ltd. <?php echo date("Y"); ?></div>
 
 			</div>
 		</div>
-
-
 	</div>
 </footer>
 

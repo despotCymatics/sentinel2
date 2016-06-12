@@ -44,28 +44,11 @@ include( "inc/follow-menu-mobile.php" );
 				<div class="ui centered stackable grid">
 
 					<div class="four wide column">
-						<h5>General</h5>
-						<p>hello@sentinelactive.com</p>
-						<h5>Careers</h5>
-						<p>careers@sentinelactive.com</p>
-						<h5>Support</h5>
-						<p>support@sentinelactive.com</p>
-						<h5>Phone</h5>
-						<p>+44 203 3686164</p>
+						<?php the_field('column1')?>
 					</div>
 
 					<div class="four wide column">
-						<h5>Address</h5>
-						<p>Gemini House<br>
-							136-140 Old Shoreham Road<br>
-							Brighton, BN3 7BD<br>
-							United Kingdom</p>
-						<h5>Let's be friends</h5>
-						<p>
-							<a href="#">Twitter</a><br>
-							<a href="#">Facebook</a><br>
-							<a href="#">LinkedIn</a><br>
-						</p>
+						<?php the_field('column2')?>
 					</div>
 
 					<div class="eight wide column">
