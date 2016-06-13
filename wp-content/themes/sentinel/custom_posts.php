@@ -169,3 +169,45 @@ function team_custom_post() {
 
 }
 add_action( 'init', 'team_custom_post' );
+
+function positions_custom_post() {
+
+	$labels = array(
+		'name'                => _x( 'Positions', 'Post Type General Name', 'position' ),
+		'singular_name'       => _x( 'Position', 'Post Type Singular Name', 'position' ),
+		'menu_name'           => __( 'Positions', 'team' ),
+		'parent_item_colon'   => __( 'Parent Position:', 'position' ),
+		'all_items'           => __( 'All Positions', 'position' ),
+		'view_item'           => __( 'View Positions', 'position' ),
+		'add_new_item'        => __( 'Add New Position', 'position' ),
+		'add_new'             => __( 'Add New', 'position' ),
+		'edit_item'           => __( 'Edit Position', 'position' ),
+		'update_item'         => __( 'Update Position', 'position' ),
+		'search_items'        => __( 'Search Position', 'position' ),
+		'not_found'           => __( 'Not found', 'position' ),
+		'not_found_in_trash'  => __( 'Not found in Trash', 'position' ),
+	);
+	$args = array(
+		'label'               => __( 'position', 'position' ),
+		'description'         => __( 'Position Description', 'position' ),
+		'labels'              => $labels,
+		'supports'            => array( 'title', 'excerpt', 'editor' ),
+		//'taxonomies'          => array( 'category', 'post_tag' ),
+		'hierarchical'        => false,
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'show_in_nav_menus'   => true,
+		'show_in_admin_bar'   => false,
+		'menu_position'       => 8,
+		'menu_icon'           => 'dashicons-hammer',
+		'can_export'          => true,
+		'has_archive'         => false,
+		'exclude_from_search' => true,
+		'publicly_queryable'  => false,
+		'capability_type'     => 'page',
+	);
+	register_post_type( 'position', $args );
+
+}
+add_action( 'init', 'positions_custom_post' );

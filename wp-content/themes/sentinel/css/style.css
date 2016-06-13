@@ -156,6 +156,7 @@ section h2.ui.header .sub.header {
 .ui.secondary.menu a.item.contact-item {
     background: #fff;
     color: #0f8ec7;
+    margin-left: 16px;
 }
 
 .ui.secondary.menu a.item.contact-item:hover {
@@ -457,16 +458,15 @@ h3.ui.header .sub.header {
     background: url(../images/elements2-bg.jpg) 0 0 no-repeat;
     background-size: 100%;
 }
-.projects{
-    /*padding: 0;*/
-    padding-bottom: 30px;
+.home .projects{
     position: relative;
+    padding: 0;
 }
 .projects h2.ui.header {
-    /*color: #fff;*/
+    color: #fff;
 }
 .projects h2.ui.header .sub.header {
-   /* color: #fff;*/
+    color: #fff;
 }
 
 .projects .prev-slide{
@@ -607,7 +607,6 @@ section .content, .our-team .ui.header .sub.header{
     top: 45%;
     left: 0;
     right: 0;
-
 }
 
 .our-team .team-member:hover .dimmer {
@@ -643,11 +642,12 @@ section .content, .our-team .ui.header .sub.header{
 
 /* Careers */
 .careers-work-with-us {
+    padding-top: 0;
     padding-bottom: 4em;
 }
 
 .open-positions {
-    margin-top: 80px;
+
 }
 .open-positions .apply{
     width: 100px;
@@ -681,7 +681,7 @@ section .content, .our-team .ui.header .sub.header{
  }
 .open-positions .ui.vertical.segment:last-child,
 .blog-list .ui.vertical.segment:last-child{
-    border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+    /*border-bottom: 1px solid rgba(34, 36, 38, 0.15);*/
 }
 /*BLOG*/
 

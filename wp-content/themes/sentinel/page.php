@@ -54,6 +54,9 @@ require_once( "inc/follow-menu-mobile.php" );
 	if(is_page('what-we-do')) {
 		include( 'inc/services-section.php' );
 		include( 'inc/work-with-us-section.php' );
+	}elseif(is_page('careers')){
+		include( 'inc/careers-section.php' );
+		include( 'inc/work-with-us-section.php' );
 	} ?>
 
 </div>

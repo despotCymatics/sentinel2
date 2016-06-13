@@ -3,8 +3,6 @@
 get_header();
 
 ?>
-
-
     <!-- Page Contents -->
     <div class="pusher blog no-hero">
     <header class="header">
@@ -21,8 +19,13 @@ get_header();
             <div class="blog-list">
                 <?php
                 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-                $args = array( 'post_type' => 'post', 'category_name' => get_query_var('category_name'), 'posts_per_page' => 1, 'paged' => $paged );
-                var_dump($args);
+                $args = array(
+	                'post_type' => 'post',
+	                'category_name' => get_query_var('category_name'),
+	                'posts_per_page' => get_option('posts_per_page'),
+	                'paged' => $paged
+                );
+
                 $loop = new WP_Query( $args );
                 $count = $loop->post_count;
                 while ( $loop->have_posts() ) : $loop->the_post();
