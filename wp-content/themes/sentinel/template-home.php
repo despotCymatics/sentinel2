@@ -33,7 +33,7 @@ include( "inc/follow-menu-mobile.php" );
 				<h1 class="ui inverted header">Digital is nothing without a roadmap</h1>
 				<p>Feugiat lobortis hendrerit cu mea, ei duo mutat partem nusquam. Ex ridens audiam latine pri, pri porro incorrupte no. Melius appetere vulputate te mea.
 				</p>
-				<div class="ui large white button"><a href="/work/">See our work</a></div>
+				<div class="ui large white button"><a href="<?php echo get_permalink(get_page_by_title('Work')); ?>">See our work</a></div>
 			</div>
 		</div>
 

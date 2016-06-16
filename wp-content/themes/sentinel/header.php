@@ -25,5 +25,5 @@ $slug = $post->post_name;
 
 <body <?php body_class($slug); ?>>
 	<div class="ui active inverted page dimmer loading">
-		<div class="ui medium text loader"><img width="48px" src="/wp-content/themes/sentinel/images/logo-rotate.gif"><br><br>L O A D I N G</div>
+		<div class="ui medium text loader"><img width="48px" src="<?php echo get_template_directory_uri(); ?>/images/logo-rotate.gif"><br><br>L O A D I N G</div>
 	</div>

@@ -98,7 +98,7 @@ require_once( "inc/follow-menu-mobile.php" );
 						<div class="ui header">
 							<div class="content">
 								This could be you!
-								<div class="sub header"><a href="/careers/">Pick your position</a></div>
+								<div class="sub header"><a href="<?php echo get_permalink(get_page_by_title('Careers')); ?>">Pick your position</a></div>
 							</div>
 						</div>
 					</div>

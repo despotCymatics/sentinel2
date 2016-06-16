@@ -6,8 +6,8 @@
 		<!--section header-->
 		<h2 class="ui header blue">
 			Want to work with us?
-			<div class="description sub header">Sint omittam voluptatibus pri an, exerci bonorum impedit in nam</div>
+			<div class="description sub header">So, think you can handle the pressure? See our open positions.</div>
 		</h2><!--section header-->
-		<a href="/contact/" class="ui large blue button">get in touch now</a>
+		<a href="<?php echo get_permalink(get_page_by_title('Careers')); ?>" class="ui large blue button">get in touch now</a>
 	</div>
 </section>

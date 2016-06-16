@@ -12,7 +12,7 @@
 					<div class="ui vertical segment">
 						<div class="ui equal width grid">
 							<div class="column"><h3 class="ui header"><?php the_title(); ?></h3></div>
-							<div class="column"><a href="/contact/" class="right floated ui button blue apply">apply</a></div>
+							<div class="column"><a href="<?php echo get_permalink(get_page_by_title('Contact')); ?>" class="right floated ui button blue apply">apply</a></div>
 						</div>
 						<div class="ui two column grid">
 							<div class="sixteen wide mobile fourteen wide column">

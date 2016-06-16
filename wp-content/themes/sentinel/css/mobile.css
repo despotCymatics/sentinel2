@@ -168,8 +168,8 @@
     }
 
     section.map img {
-       min-height: 180px;
-        width: auto;
+        /*min-height: 180px;
+        width: auto;*/
     }
 
     .blog-post h2.ui.header {
